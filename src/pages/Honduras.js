@@ -1,5 +1,6 @@
 import Navbar from "../sections/Navbar";
 import Hero from '../sections/Hero'
+import HackathonHN from "../sections/HackathonHN";
 import EthToLatam from '../sections/EthToLatam'
 import SpeakersHN from '../sections/SpeakersHN'
 import SponsorsHN from '../sections/SponsorsHN'
@@ -29,6 +30,7 @@ function Honduras() {
             </Navbar>
             <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
             <Apply />
+            <HackathonHN edition={EDITIONS.HONDURAS}/>
             <EthToLatam edition={EDITIONS.HONDURAS} />
             <Loop reverse content={<img src={date1} alt="smothing honduras" />} />
             <Loop content={<img src={date2} alt="smothing honduras" />} />

@@ -21,13 +21,17 @@ import dominicana from '../assets/flags/do.svg'
 import costarica from '../assets/flags/cr.svg'
 // import chile from '../assets/flags/cl.svg'
 import usa from '../assets/flags/us.svg'
+import ecuador from "../assets/flags/ec.svg"
+import uruguay from "../assets/flags/uy.svg"
 
-import ahmed from '../assets/speakersHN/amehd.jpeg'
+import ahmed from '../assets/speakersHN/Ahmed.jpg'
+import alejandro from '../assets/speakersHN/AlejandroSantander.jpeg'
 import andy from '../assets/speakersHN/andy.jpg'
 import crisgarner from '../assets/speakersHN/crisgarner.png'
 import cryptochica from '../assets/speakersHN/cryptochica.png'
 import diegoMares from '../assets/speakersHN/DiegoMares.jpg'
 import isaacGonzales from '../assets/speakersHN/Isaac.jpg'
+import nicoSerrano from "../assets/speakersHN/NicolasSerrano.png"
 import sam from '../assets/speakersHN/Sam.jpg'
 import skylar from '../assets/speakersHN/skylar.jpeg'
 import solange from '../assets/speakersHN/solange.png'
@@ -85,6 +89,34 @@ const Speakers = () => {
           </BoxItem> */}
 
           {/* ========== A ============ */}
+
+
+          <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/FilosofiaCodigo" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%'}} src={ahmed} />
+              <div>
+                <h1>Ahmed Castro</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Scroll</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/the_ethernaut" className="importantPersonContent">
+              <img style={{ objectPosition: '50% 50%', width:'75px' }} src={alejandro} />
+              <div>
+                <h1>Alejandro Santander</h1>
+                <Subtitile>
+                  <Country src={uruguay} />
+                  <h2>EthernautDAO</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/AndyGuzmanEth" className="importantPersonContent">
               <img style={{ objectPosition: '66% 50%' }} src={andy} />
@@ -92,20 +124,7 @@ const Speakers = () => {
                 <h1>Andy Guzman</h1>
                 <Subtitile>
                   <Country src={costarica} />
-                  <h2>Privacy & Scaling Explorations</h2>
-                </Subtitile>
-              </div>
-            </Content>
-          </BoxItem>
-
-          <BoxItem className="importantPerson">
-            <Content target="_blank" href="https://ethlatam.org" className="importantPersonContent">
-              <img style={{ objectPosition: '66% 50%' }} src={ahmed} />
-              <div>
-                <h1>Ahmed Castro</h1>
-                <Subtitile>
-                  <Country src={honduras} />
-                  <h2>Scroll</h2>
+                  <h2>EF / PSE</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -124,7 +143,7 @@ const Speakers = () => {
                 <h1>Crisgarner</h1>
                 <Subtitile>
                   <Country src={honduras} />
-                  <h2>Privacy & Scaling Explorations</h2>
+                  <h2>EF / PSE</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -175,12 +194,31 @@ const Speakers = () => {
               href="https://twitter.com/entigdd"
               className="importantPersonContent"
             >
-              <img style={{ objectPosition: '100% 50%' }} src={isaacGonzales} />
+              <img style={{ objectPosition: '50% 50%' }} src={isaacGonzales} />
               <div>
                 <h1>Isaac González</h1>
                 <Subtitile>
                   <Country src={dominicana} />
                   <h2>Wonderland / Lido</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== N ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/NicoSerranoP"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={nicoSerrano} />
+              <div>
+                <h1>Nicolas Serrano</h1>
+                <Subtitile>
+                  <Country src={ecuador} />
+                  <h2>EF / PSE</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -199,7 +237,7 @@ const Speakers = () => {
                 <h1>Sam Richards</h1>
                 <Subtitile>
                   <Country src={usa} />
-                  <h2>Privacy & Scaling Explorations</h2>
+                  <h2>EF / PSE</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -358,7 +396,7 @@ const BoxItem = styled.div`
     height: 152px;
   }
   &.importantPerson {
-    height: 76px;
+    height: 96px;
   }
 `
 const Content = styled.a`
@@ -385,8 +423,8 @@ const Content = styled.a`
     display: flex;
     align-items: center;
     img {
-      height: 44px;
-      width: 44px;
+      height: 64px;
+      width: 64px;
       object-fit: cover;
       object-position: center;
       padding: 14px 16px;
