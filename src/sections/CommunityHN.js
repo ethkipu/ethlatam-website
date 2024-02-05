@@ -13,6 +13,7 @@ import samba from "../assets/sponsorsHN/community/samba.png"
 import volcano from "../assets/sponsorsHN/community/volcano.png"
 import dominicana from "../assets/sponsorsHN/community/dominicana.png"
 import costarica from "../assets/sponsorsHN/community/costarica.svg"
+import argentina from "../assets/sponsorsHN/community/argentina.svg"
 
 import { useLanguage } from '../context/LanguageContext'
 
@@ -69,6 +70,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={costarica} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={argentina} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
