@@ -23,6 +23,7 @@ import costarica from '../assets/flags/cr.svg'
 import usa from '../assets/flags/us.svg'
 import ecuador from "../assets/flags/ec.svg"
 import uruguay from "../assets/flags/uy.svg"
+import singapore from "../assets/flags/sg.svg"
 
 import ahmed from '../assets/speakersHN/Ahmed.jpg'
 import alejandro from '../assets/speakersHN/AlejandroSantander.jpeg'
@@ -31,10 +32,13 @@ import crisgarner from '../assets/speakersHN/crisgarner.png'
 import cryptochica from '../assets/speakersHN/cryptochica.png'
 import diegoMares from '../assets/speakersHN/DiegoMares.jpg'
 import isaacGonzales from '../assets/speakersHN/Isaac.jpg'
+import joao from "../assets/speakersHN/Joao.jpg"
 import nicoSerrano from "../assets/speakersHN/NicolasSerrano.png"
+import qz from "../assets/speakersHN/QZ.jpg"
 import sam from '../assets/speakersHN/Sam.jpg'
 import skylar from '../assets/speakersHN/skylar.jpeg'
 import solange from '../assets/speakersHN/solange.png'
+import vee from "../assets/speakersHN/Vee.png"
 
 
 const Speakers = () => {
@@ -132,7 +136,7 @@ const Speakers = () => {
 
           {/* ========== C ============ */}
 
-          <BoxItem className="importantPerson">
+          {/* <BoxItem className="importantPerson">
             <Content
               target="_blank"
               href="https://twitter.com/crisgarner"
@@ -165,7 +169,7 @@ const Speakers = () => {
                 </Subtitile>
               </div>
             </Content>
-          </BoxItem>
+          </BoxItem> */}
 
           {/* ========== D ============ */}
 
@@ -205,6 +209,25 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+           {/* ========== J ============ */}
+
+           <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/cripto_nita_"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' }} src={joao} />
+              <div>
+                <h1>João Kury</h1>
+                <Subtitile>
+                  <Country src={brasil} />
+                  <h2>Modular Crypto</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           {/* ========== N ============ */}
 
           <BoxItem className="importantPerson">
@@ -219,6 +242,25 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={ecuador} />
                   <h2>EF / PSE</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== Q ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/not_qz"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={qz} />
+              <div>
+                <h1>QZ</h1>
+                <Subtitile>
+                  <Country src={singapore} />
+                  <h2>Ethereum Singapore</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -277,6 +319,26 @@ const Speakers = () => {
               </div>
             </Content>
           </BoxItem>
+
+           {/* ========== V ============ */}
+
+           <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="#"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={vee} />
+              <div>
+                <h1>Vee</h1>
+                <Subtitile>
+                  <Country src={singapore} />
+                  <h2>EF / PSE</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
 
 
 

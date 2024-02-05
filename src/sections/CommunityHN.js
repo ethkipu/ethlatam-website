@@ -2,16 +2,18 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
 
-import esp from '../assets/sponsorsHN/esp.svg'
-import pse from '../assets/sponsorsHN/pse.png'
-import apecoin from '../assets/sponsorsHN/ape.png'
-import scroll from '../assets/sponsorsHN/scroll.png'
-import waku from '../assets/sponsorsHN/waku.svg'
-import icp from '../assets/sponsorsHN/icp.png'
-import chainlink from '../assets/sponsorsHN/chainlink.png'
-import metis from '../assets/sponsorsHN/metis.png'
-import metapool from '../assets/sponsorsHN/metapool.svg'
-import starknet from "../assets/sponsorsHN/starknet.svg"
+import etherscan from '../assets/sponsorsHN/community/etherscan.png'
+import zupass from "../assets/sponsorsHN/community/zupass.png"
+import tgu from "../assets/sponsorsHN/community/tgu.png"
+import lima from "../assets/sponsorsHN/community/lima.webp"
+import cryptoversidad from "../assets/sponsorsHN/community/cryptoversidad.png"
+import seedLatam from "../assets/sponsorsHN/community/seedLatam.png"
+import modular from "../assets/sponsorsHN/community/modular.webp"
+import samba from "../assets/sponsorsHN/community/samba.png"
+import volcano from "../assets/sponsorsHN/community/volcano.png"
+import dominicana from "../assets/sponsorsHN/community/dominicana.png"
+import costarica from "../assets/sponsorsHN/community/costarica.svg"
+
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -26,99 +28,62 @@ const SponsorsHN = () => {
     <SponsorsHNSection id="media" locale={locale}>
       <Container>
         <h1>
-          <FormattedHTMLMessage id="sponsors.title" />
+          <FormattedHTMLMessage id="community.title" />
         </h1>
-        <Row>
-          <BoxItem className="tierZero">
-            <BoxInfo>
-              <img src={esp} width="380" />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierZero">
-            <BoxInfo>
-              <img src={scroll} width="380" />
-            </BoxInfo>
-          </BoxItem>
-          {/* <BoxItem className="tierZero">
-            <BoxInfo>
-              <img src={pse} width="150" />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierZero">
-            <BoxInfo>
-              <img src={apecoin} width="150" />
-            </BoxInfo>
-          </BoxItem> */}
-       </Row>
        <Row>
-          {/* <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={esp} width="300" />
+              <img src={etherscan} width="200" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={scroll} width="300" />
-            </BoxInfo>
-          </BoxItem> */}
-          <BoxItem className="tierOne">
-            <BoxInfo>
-              <img src={pse} width="180" />
+              <img src={tgu} width="225" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={apecoin} width="180" />
+              <img src={lima} width="200" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={waku} width="250" />
+              <img src={cryptoversidad} width="200" />
             </BoxInfo>
           </BoxItem>
-       </Row>
-       {/* <Row>
-          <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={ens} width="150" />
+              <img src={modular} style={{ objectPosition: '50% 20px', width:'200px' }} />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={livepeer} width="150" />
+              <img src={seedLatam} width="200" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierOne">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={opt} height="100" />
+              <img src={dominicana} width="200" />
             </BoxInfo>
           </BoxItem>
-       </Row> */}
-
-       <Row>
-          <BoxItem className="tierThree">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={starknet} width="200" />
+              <img src={costarica} width="150" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierThree">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={chainlink} width="150" />
+              <img src={volcano} width="100" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierThree">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={metis} width="150" />
+              <img src={samba} width="100"/>
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierThree">
+          <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={metapool} width="200" />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img src={icp} width="200" />
+              <img src={zupass} width="95" className='round'/>
             </BoxInfo>
           </BoxItem>
         </Row>

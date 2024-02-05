@@ -4,6 +4,7 @@ import HackathonHN from "../sections/HackathonHN";
 import EthToLatam from '../sections/EthToLatam'
 import SpeakersHN from '../sections/SpeakersHN'
 import SponsorsHN from '../sections/SponsorsHN'
+import CommunityHN from '../sections/CommunityHN'
 import Venue from '../sections/Venue'
 import Footer from '../sections/Footer'
 import Loop from '../components/Loop'
@@ -28,7 +29,7 @@ function Honduras() {
                     <FormattedMessage id="navbar.venue" />
                 </Link>
             </Navbar>
-            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
+            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"https://pretix.eu/ethlatam/sps/"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
             <Apply />
             <HackathonHN edition={EDITIONS.HONDURAS}/>
             <EthToLatam edition={EDITIONS.HONDURAS} />
@@ -36,6 +37,7 @@ function Honduras() {
             <Loop content={<img src={date2} alt="smothing honduras" />} />
             <SpeakersHN />
             <SponsorsHN />
+            <CommunityHN/>
             <Venue
                 locationHref={"https://copantl.com/"}
                 venueSmSrc={venueSmSrc}

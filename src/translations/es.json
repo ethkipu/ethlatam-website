@@ -74,7 +74,7 @@
   "honduras.hero.date": "13-14",
   "honduras.hero.month": "MARZO",
   "honduras.hero.year": "2024",
-  "honduras.hero.button": "Tickets próximamente!",
+  "honduras.hero.button": "Obten Tickets!",
   "honduras.hero.city": "@San<br>pedrosula",
   "honduras.hero.country": ">> Honduras",
   "honduras.venue.title": "COPANTL <span class='pixel'>Con</span>venti<span class='pixel'>on</span> C<span class='pixel'>en</span>te<span class='pixel'>r</span>",
@@ -102,5 +102,6 @@
   "honduras.apply.speaker": "Speaker",
   "honduras.apply.volunteer": "Voluntario",
   "hackathon.date":"13 Y 14 DE MARZO",
-  "hackathon.cta":"INSCRIBITE"
+  "hackathon.cta":"INSCRIBITE",
+  "community.title": "C<span class='pixel'>o</span>mmunity Part<span class='pixel'>n</span>ers"
 }

@@ -13,6 +13,9 @@
   "sponsors.title": "O<span class='pixel'>ur</span><br />S<span class='pixel'>p</span>ons<span class='pixel'>o</span>rs",
   "media.title": "M<span class='pixel'>e</span>di<span class='pixel'>a</span> & <span class='pixel'>edu</span><br />Pa<span class='pixel'>r</span>t<span class='pixel'>ne</span>rs",
 
+  "community.title": "C<span class='pixel'>o</span>mmunity Part<span class='pixel'>n</span>ers",
+
+
   "hackathon.date":"MARCH 13 & 14",
   "hackathon.cta":"APPLY",
 
@@ -76,7 +79,7 @@
   "honduras.hero.date": "13-14",
   "honduras.hero.month": "MARCH",
   "honduras.hero.year": "2024",
-  "honduras.hero.button": "Tickets coming soon!",
+  "honduras.hero.button": "Get Tickets!",
   "honduras.hero.city": "@San<br>pedrosula",
   "honduras.hero.country": ">> Honduras",
   "honduras.venue.title": "COPANTL <span class='pixel'>Con</span>venti<span class='pixel'>on</span> C<span class='pixel'>en</span>te<span class='pixel'>r</span>",
