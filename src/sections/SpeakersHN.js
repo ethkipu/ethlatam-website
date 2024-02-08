@@ -35,10 +35,12 @@ import isaacGonzales from '../assets/speakersHN/Isaac.jpg'
 import joao from "../assets/speakersHN/Joao.jpg"
 import nicoSerrano from "../assets/speakersHN/NicolasSerrano.png"
 import qz from "../assets/speakersHN/QZ.jpg"
+import omar from '../assets/speakersHN/omar.jpeg'
 import sam from '../assets/speakersHN/Sam.jpg'
 import skylar from '../assets/speakersHN/skylar.jpeg'
 import solange from '../assets/speakersHN/solange.png'
 import vee from "../assets/speakersHN/Vee.png"
+import vitalik from "../assets/speakersHN/vitalik.jpeg"
 
 
 const Speakers = () => {
@@ -94,6 +96,18 @@ const Speakers = () => {
 
           {/* ========== A ============ */}
 
+          {/* <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/FilosofiaCodigo" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%'}} src={ahmed} />
+              <div>
+                <h1>Ahhsun</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Scroll</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem> */}
 
           <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/FilosofiaCodigo" className="importantPersonContent">
@@ -247,6 +261,27 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+
+      {/* ========== O ============ */}
+
+      <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/espejelomar"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={omar} />
+              <div>
+                <h1>Omar Espejel</h1>
+                <Subtitile>
+                  <Country src={mexico} />
+                  <h2>Starknet</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+
           {/* ========== Q ============ */}
 
           <BoxItem className="importantPerson">
@@ -332,8 +367,24 @@ const Speakers = () => {
               <div>
                 <h1>Vee</h1>
                 <Subtitile>
-                  <Country src={singapore} />
+                  <Country src={mexico} />
                   <h2>EF / PSE</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="supervip">
+            <Content
+              target="_blank"
+              href="https://twitter.com/VitalikButerin"
+              className="supervipContent"
+            >
+              <img src={vitalik} style={{ objectPosition: '100% 50%' }} />
+              <div>
+                <h1>Vitalik (Online)</h1>
+                <Subtitile className="withPadding">
+                  <h2>Ethereum Foundation </h2>
                 </Subtitile>
               </div>
             </Content>

@@ -14,6 +14,13 @@ import volcano from "../assets/sponsorsHN/community/volcano.png"
 import dominicana from "../assets/sponsorsHN/community/dominicana.png"
 import costarica from "../assets/sponsorsHN/community/costarica.svg"
 import argentina from "../assets/sponsorsHN/community/argentina.svg"
+import proofIntegrity from "../assets/sponsorsHN/community/proofIntegrity.png"
+import sps from "../assets/sponsorsHN/community/SPS.png"
+import singapur from "../assets/sponsorsHN/community/singapur.png"
+import solow from "../assets/sponsorsHN/community/solow.png"
+import usap from "../assets/sponsorsHN/community/usap.png"
+import cointelegraph from "../assets/sponsorsHN/community/cointelegraph.png"
+import cryptoconexion from "../assets/sponsorsHN/community/cryptoconexion.png"
 
 import { useLanguage } from '../context/LanguageContext'
 
@@ -74,7 +81,42 @@ const SponsorsHN = () => {
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
+              <img src={sps} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={proofIntegrity} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
               <img src={argentina} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={solow} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={usap} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={cointelegraph} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={cryptoconexion} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={singapur} width="70" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">

@@ -39,7 +39,7 @@ function Honduras() {
             <SponsorsHN />
             <CommunityHN/>
             <Venue
-                locationHref={"https://copantl.com/"}
+                locationHref={"https://ethkipu.notion.site/ETH-Latam-San-Pedro-Sula-dc72b6e2b81e41ec8f5bebf0cb9bbd6c"}
                 venueSmSrc={venueSmSrc}
                 venueLgSrc={venueSmSrc}
                 edition={EDITIONS.HONDURAS}
