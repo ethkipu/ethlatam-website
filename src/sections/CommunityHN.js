@@ -5,7 +5,7 @@ import { FormattedHTMLMessage } from 'react-intl'
 import etherscan from '../assets/sponsorsHN/community/etherscan.png'
 import zupass from "../assets/sponsorsHN/community/zupass.png"
 import tgu from "../assets/sponsorsHN/community/tgu.png"
-import lima from "../assets/sponsorsHN/community/lima.webp"
+import lima from "../assets/sponsorsHN/community/lima.png"
 import cryptoversidad from "../assets/sponsorsHN/community/cryptoversidad.png"
 import seedLatam from "../assets/sponsorsHN/community/seedLatam.png"
 import modular from "../assets/sponsorsHN/community/modular.webp"
@@ -19,8 +19,12 @@ import sps from "../assets/sponsorsHN/community/SPS.png"
 import singapur from "../assets/sponsorsHN/community/singapur.png"
 import solow from "../assets/sponsorsHN/community/solow.png"
 import usap from "../assets/sponsorsHN/community/usap.png"
+import buro from "../assets/sponsorsHN/community/buro.png"
 import cointelegraph from "../assets/sponsorsHN/community/cointelegraph.png"
 import cryptoconexion from "../assets/sponsorsHN/community/cryptoconexion.png"
+import filosofiacodigo from "../assets/sponsorsHN/community/filosofiacodigo.png"
+import guatemala from "../assets/sponsorsHN/community/guatemala.png"
+
 
 import { useLanguage } from '../context/LanguageContext'
 
@@ -51,7 +55,7 @@ const SponsorsHN = () => {
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={lima} width="200" />
+              <img src={lima} width="250" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
@@ -86,7 +90,7 @@ const SponsorsHN = () => {
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
-              <img src={proofIntegrity} width="200" />
+              <img src={proofIntegrity} width="220" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
@@ -106,12 +110,27 @@ const SponsorsHN = () => {
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
+              <img src={buro} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
               <img src={cointelegraph} width="250" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={cryptoconexion} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={filosofiacodigo} width="100" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={guatemala} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
