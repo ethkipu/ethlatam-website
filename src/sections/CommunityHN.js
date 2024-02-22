@@ -24,6 +24,8 @@ import cointelegraph from "../assets/sponsorsHN/community/cointelegraph.png"
 import cryptoconexion from "../assets/sponsorsHN/community/cryptoconexion.png"
 import filosofiacodigo from "../assets/sponsorsHN/community/filosofiacodigo.png"
 import guatemala from "../assets/sponsorsHN/community/guatemala.png"
+import uth from "../assets/sponsorsHN/community/uth.png"
+import ceutec from "../assets/sponsorsHN/community/ceutec.png"
 
 
 import { useLanguage } from '../context/LanguageContext'
@@ -131,6 +133,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={guatemala} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={uth} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">

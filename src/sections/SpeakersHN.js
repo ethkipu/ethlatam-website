@@ -15,7 +15,7 @@ import brasil from '../assets/flags/br.svg'
 // import suiza from '../assets/flags/ch.svg'
 import honduras from '../assets/flags/hn.svg'
 // import peru from '../assets/flags/pe.svg'
-// import venezuela from '../assets/flags/ve.svg'
+import venezuela from '../assets/flags/ve.svg'
 // import uk from '../assets/flags/gb.svg'
 import dominicana from '../assets/flags/do.svg'
 import costarica from '../assets/flags/cr.svg'
@@ -24,19 +24,25 @@ import usa from '../assets/flags/us.svg'
 import ecuador from "../assets/flags/ec.svg"
 import uruguay from "../assets/flags/uy.svg"
 import singapore from "../assets/flags/sg.svg"
+import panama from "../assets/flags/pa.svg"
 
 import ahmed from '../assets/speakersHN/Ahmed.jpg'
-import alejandro from '../assets/speakersHN/AlejandroSantander.jpeg'
+import alejandro from '../assets/speakersHN/alejandroSantander.png'
 import andy from '../assets/speakersHN/andy.jpg'
+import ariiellus from "../assets/speakersHN/ariiellus.png"
+import chris from "../assets/speakersHN/chris.png"
 import crisgarner from '../assets/speakersHN/crisgarner.png'
 import cryptochica from '../assets/speakersHN/cryptochica.png'
 import diegoMares from '../assets/speakersHN/DiegoMares.jpg'
-import isaacGonzales from '../assets/speakersHN/Isaac.jpg'
+import isaacGonzales from '../assets/speakersHN/isaac.png'
 import joao from "../assets/speakersHN/Joao.jpg"
-import nicoSerrano from "../assets/speakersHN/NicolasSerrano.png"
-import qz from "../assets/speakersHN/QZ.jpg"
-import omar from '../assets/speakersHN/omar.jpeg'
+import jose from "../assets/speakersHN/jose.png"
+import lisa from "../assets/speakersHN/Lisa.png"
+import nicoSerrano from "../assets/speakersHN/nico.png"
+import qz from "../assets/speakersHN/QZ.png"
+import omar from '../assets/speakersHN/omar.jpg'
 import sam from '../assets/speakersHN/Sam.jpg'
+import simonethg from "../assets/speakersHN/simonethg.png"
 import skylar from '../assets/speakersHN/skylar.jpeg'
 import solange from '../assets/speakersHN/solange.png'
 import vee from "../assets/speakersHN/Vee.png"
@@ -123,6 +129,19 @@ const Speakers = () => {
           </BoxItem>
 
           <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/Ariiellus" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%'}} src={ariiellus} />
+              <div>
+                <h1>Ariiellus</h1>
+                <Subtitile>
+                  <Country src={mexico} />
+                  <h2>Kairos Research</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/the_ethernaut" className="importantPersonContent">
               <img style={{ objectPosition: '50% 50%', width:'75px' }} src={alejandro} />
               <div>
@@ -150,7 +169,24 @@ const Speakers = () => {
 
           {/* ========== C ============ */}
 
-          {/* <BoxItem className="importantPerson">
+          <BoxItem className="supervip">
+            <Content
+              target="_blank"
+              href="https://twitter.com/chrislemanade"
+              className="supervipContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={chris} />
+              <div>
+                <h1>Chris Lema</h1>
+                <Subtitile className="withPadding">
+                  <Country src={usa} />
+                  <h2>Scroll</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
             <Content
               target="_blank"
               href="https://twitter.com/crisgarner"
@@ -166,6 +202,8 @@ const Speakers = () => {
               </div>
             </Content>
           </BoxItem>
+
+          {/*
 
 
           <BoxItem className="importantPerson">
@@ -242,6 +280,42 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/josefabregab"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' }} src={jose} />
+              <div>
+                <h1>José Fábrega</h1>
+                <Subtitile>
+                  <Country src={panama} />
+                  <h2>Metis</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== L ============ */}
+
+          {/* <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/lisajytan"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' }} src={lisa} />
+              <div>
+                <h1>Lisa JY Tan</h1>
+                <Subtitile>
+                  <Country src={singapore} />
+                  <h2>Economics Design</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem> */}
+
           {/* ========== N ============ */}
 
           <BoxItem className="importantPerson">
@@ -315,6 +389,23 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={usa} />
                   <h2>EF / PSE</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/samonchain"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={simonethg} />
+              <div>
+                <h1>Simonethg</h1>
+                <Subtitile>
+                  <Country src={venezuela} />
+                  <h2>AcademiaQA</h2>
                 </Subtitile>
               </div>
             </Content>

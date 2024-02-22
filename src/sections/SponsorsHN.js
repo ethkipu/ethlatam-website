@@ -12,6 +12,7 @@ import chainlink from '../assets/sponsorsHN/chainlink.png'
 import metis from '../assets/sponsorsHN/metis.png'
 import metapool from '../assets/sponsorsHN/metapool.svg'
 import starknet from "../assets/sponsorsHN/starknet.svg"
+import eas from "../assets/sponsorsHN/EAS.png"
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -109,6 +110,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierThree">
             <BoxInfo>
               <img src={metis} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={eas} width="125" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierThree">
