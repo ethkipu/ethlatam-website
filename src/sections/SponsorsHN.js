@@ -13,6 +13,13 @@ import metis from '../assets/sponsorsHN/metis.png'
 import metapool from '../assets/sponsorsHN/metapool.svg'
 import starknet from "../assets/sponsorsHN/starknet.svg"
 import eas from "../assets/sponsorsHN/EAS.png"
+import axelar from "../assets/sponsorsHN/axelar.png"
+import ens from "../assets/sponsorsHN/ens_logo_dao.png"
+import dora from "../assets/sponsorsHN/dora.png"
+import zksync from "../assets/sponsorsHN/zksync.png"
+import quark from "../assets/sponsorsHN/quarkID.png"
+import xucre from "../assets/sponsorsHN/xucre.png"
+import unitec from "../assets/sponsorsHN/unitec.png"
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -77,6 +84,21 @@ const SponsorsHN = () => {
               <img src={waku} width="250" />
             </BoxInfo>
           </BoxItem>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={ens} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={zksync} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={quark} width="250" />
+            </BoxInfo>
+          </BoxItem>
        </Row>
        {/* <Row>
           <BoxItem className="tierOne">
@@ -120,6 +142,26 @@ const SponsorsHN = () => {
           <BoxItem className="tierThree">
             <BoxInfo>
               <img src={metapool} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={axelar} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={dora} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={xucre} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={unitec} width="200" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierThree">

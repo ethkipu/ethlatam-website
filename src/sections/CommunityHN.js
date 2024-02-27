@@ -26,6 +26,8 @@ import filosofiacodigo from "../assets/sponsorsHN/community/filosofiacodigo.png"
 import guatemala from "../assets/sponsorsHN/community/guatemala.png"
 import uth from "../assets/sponsorsHN/community/uth.png"
 import ceutec from "../assets/sponsorsHN/community/ceutec.png"
+import fiesta from "../assets/sponsorsHN/community/Fiesta.png"
+import ethco from "../assets/sponsorsHN/community/ETHCO.webp"
 
 
 import { useLanguage } from '../context/LanguageContext'
@@ -142,12 +144,22 @@ const SponsorsHN = () => {
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
+              <img src={ethco} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
               <img src={singapur} width="70" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={volcano} width="100" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={fiesta} width="80"/>
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">

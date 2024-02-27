@@ -299,22 +299,22 @@ const Speakers = () => {
 
           {/* ========== L ============ */}
 
-          {/* <BoxItem className="importantPerson">
+          <BoxItem className="supervip">
             <Content
               target="_blank"
               href="https://twitter.com/lisajytan"
-              className="importantPersonContent"
+              className="supervipContent"
             >
-              <img style={{ objectPosition: '50% 50%' }} src={lisa} />
+              <img style={{ objectPosition: '50% 15%' }} src={lisa} />
               <div>
                 <h1>Lisa JY Tan</h1>
-                <Subtitile>
+                <Subtitile className="withPadding">
                   <Country src={singapore} />
                   <h2>Economics Design</h2>
                 </Subtitile>
               </div>
             </Content>
-          </BoxItem> */}
+          </BoxItem>
 
           {/* ========== N ============ */}
 
