@@ -25,7 +25,7 @@ import cryptoconexion from "../assets/sponsorsHN/community/cryptoconexion.png"
 import filosofiacodigo from "../assets/sponsorsHN/community/filosofiacodigo.png"
 import guatemala from "../assets/sponsorsHN/community/guatemala.png"
 import uth from "../assets/sponsorsHN/community/uth.png"
-import ceutec from "../assets/sponsorsHN/community/ceutec.png"
+import unitec from "../assets/sponsorsHN/community/unitec.png"
 import fiesta from "../assets/sponsorsHN/community/Fiesta.png"
 import ethco from "../assets/sponsorsHN/community/ETHCO.webp"
 
@@ -145,6 +145,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={ethco} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={unitec} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">

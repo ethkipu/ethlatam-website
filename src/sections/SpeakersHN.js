@@ -14,7 +14,7 @@ import brasil from '../assets/flags/br.svg'
 // import colombia from '../assets/flags/co.svg'
 // import suiza from '../assets/flags/ch.svg'
 import honduras from '../assets/flags/hn.svg'
-// import peru from '../assets/flags/pe.svg'
+import peru from '../assets/flags/pe.svg'
 import venezuela from '../assets/flags/ve.svg'
 // import uk from '../assets/flags/gb.svg'
 import dominicana from '../assets/flags/do.svg'
@@ -30,6 +30,7 @@ import ahmed from '../assets/speakersHN/Ahmed.jpg'
 import alejandro from '../assets/speakersHN/alejandroSantander.png'
 import andy from '../assets/speakersHN/andy.jpg'
 import ariiellus from "../assets/speakersHN/ariiellus.png"
+import bunny from "../assets/speakersHN/bunny.jpeg"
 import chris from "../assets/speakersHN/chris.png"
 import crisgarner from '../assets/speakersHN/crisgarner.png'
 import cryptochica from '../assets/speakersHN/cryptochica.png'
@@ -46,6 +47,7 @@ import simonethg from "../assets/speakersHN/simonethg.png"
 import skylar from '../assets/speakersHN/skylar.jpeg'
 import solange from '../assets/speakersHN/solange.png'
 import vee from "../assets/speakersHN/Vee.png"
+import vega from "../assets/speakersHN/vega.jpeg"
 import vitalik from "../assets/speakersHN/vitalik.jpeg"
 
 
@@ -162,6 +164,21 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={costarica} />
                   <h2>EF / PSE</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== B ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/ConejoCapital" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%' }} src={bunny} />
+              <div>
+                <h1>Bunny</h1>
+                <Subtitile>
+                  <Country src={peru} />
+                  <h2>Search On Dora</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -465,6 +482,19 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/vegaypatino" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%' }} src={vega} />
+              <div>
+                <h1>vegayp.eth</h1>
+                <Subtitile>
+                  <Country src={usa} />
+                  <h2>corpus.ventures / dm3 / ENS DAO</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           <BoxItem className="supervip">
             <Content
               target="_blank"
@@ -480,6 +510,7 @@ const Speakers = () => {
               </div>
             </Content>
           </BoxItem>
+
 
 
 
