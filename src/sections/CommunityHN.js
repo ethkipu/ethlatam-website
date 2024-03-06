@@ -28,6 +28,7 @@ import uth from "../assets/sponsorsHN/community/uth.png"
 import unitec from "../assets/sponsorsHN/community/unitec.png"
 import fiesta from "../assets/sponsorsHN/community/Fiesta.png"
 import ethco from "../assets/sponsorsHN/community/ETHCO.webp"
+import fintech from "../assets/sponsorsHN/community/afin.gif"
 
 
 import { useLanguage } from '../context/LanguageContext'
@@ -150,6 +151,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={unitec} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={fintech} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
