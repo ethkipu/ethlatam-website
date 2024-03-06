@@ -5,7 +5,7 @@ import EthToLatam from '../sections/EthToLatam'
 import SpeakersHN from '../sections/SpeakersHN'
 import SponsorsHN from '../sections/SponsorsHN'
 import CommunityHN from '../sections/CommunityHN'
-import MediaHN from '../sections/MediaHN'
+import AgendaHN from '../sections/AgendaHN'
 import Venue from '../sections/Venue'
 import Footer from '../sections/Footer'
 import Loop from '../components/Loop'
@@ -37,6 +37,7 @@ function Honduras() {
             <Loop reverse content={<img src={date1} alt="smothing honduras" />} />
             <Loop content={<img src={date2} alt="smothing honduras" />} />
             <SpeakersHN />
+           <AgendaHN />
             <SponsorsHN />
             <CommunityHN/>
             <Venue

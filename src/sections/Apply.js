@@ -19,9 +19,9 @@ const Apply = () => {
                     <ApplyButton color={PALETTE.PINK} href="https://forms.gle/NkQdjaLgCqJnCwXp8" target="_blank">
                         <FormattedMessage id="honduras.apply.sideevents" />
                     </ApplyButton>
-                    {/* <ApplyButton color={PALETTE.SKYBLUE} href="https://tally.so/r/mK51Y8" target="_blank">
-                        <FormattedMessage id="honduras.apply.volunteer" />
-                    </ApplyButton> */}
+                    <ApplyButton color={PALETTE.SKYBLUE} href="https://ethereumtgu.notion.site/ETH-Latam-Retreat-to-Roat-n-954b2beb01ee434aa1b6d04b9b224ccc" target="_blank">
+                     ROATAN RETREAT 🏖️
+                    </ApplyButton>
                 </Box>
             </ApplyContainer>
         </ApplySection>
@@ -58,6 +58,7 @@ const Box = styled.div`
 `
 
 const ApplyButton = styled(Button)`
+
     padding: 10px 15px;
     margin: 15px;
     @media only screen and (max-width: 600px) {

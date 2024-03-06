@@ -11,7 +11,7 @@ import argentina from '../assets/flags/ar.svg'
 import mexico from '../assets/flags/mx.svg'
 import brasil from '../assets/flags/br.svg'
 // import bolivia from '../assets/flags/bo.svg'
-// import colombia from '../assets/flags/co.svg'
+import colombia from '../assets/flags/co.svg'
 // import suiza from '../assets/flags/ch.svg'
 import honduras from '../assets/flags/hn.svg'
 import peru from '../assets/flags/pe.svg'
@@ -25,7 +25,11 @@ import ecuador from "../assets/flags/ec.svg"
 import uruguay from "../assets/flags/uy.svg"
 import singapore from "../assets/flags/sg.svg"
 import panama from "../assets/flags/pa.svg"
+import guatemala from "../assets/flags/gt.svg"
+import india from "../assets/flags/in.svg"
 
+import ahhsun from '../assets/speakersHN/ahhsun.png'
+import alex from '../assets/speakersHN/alex.png'
 import ahmed from '../assets/speakersHN/Ahmed.jpg'
 import alejandro from '../assets/speakersHN/alejandroSantander.png'
 import andy from '../assets/speakersHN/andy.jpg'
@@ -33,15 +37,24 @@ import ariiellus from "../assets/speakersHN/ariiellus.png"
 import bunny from "../assets/speakersHN/bunny.jpeg"
 import chris from "../assets/speakersHN/chris.png"
 import crisgarner from '../assets/speakersHN/crisgarner.png'
+import cristina from "../assets/speakersHN/cristina.png"
 import cryptochica from '../assets/speakersHN/cryptochica.png'
+import denizen from '../assets/speakersHN/denizen.png'
 import diegoMares from '../assets/speakersHN/DiegoMares.jpg'
+import edwin from '../assets/speakersHN/edwin.PNG'
+import francis from '../assets/speakersHN/francis.PNG'
+import guru from '../assets/speakersHN/guru.jpeg'
 import isaacGonzales from '../assets/speakersHN/isaac.png'
 import joao from "../assets/speakersHN/Joao.jpg"
 import jose from "../assets/speakersHN/jose.png"
+import lee from "../assets/speakersHN/lee.png"
 import lisa from "../assets/speakersHN/Lisa.png"
+import lucy from "../assets/speakersHN/lucy.jpg"
+import natalia from "../assets/speakersHN/natalia.png"
 import nicoSerrano from "../assets/speakersHN/nico.png"
-import qz from "../assets/speakersHN/QZ.png"
 import omar from '../assets/speakersHN/omar.jpg'
+import oyabun from '../assets/speakersHN/oyabun.png'
+import qz from "../assets/speakersHN/QZ.png"
 import sam from '../assets/speakersHN/Sam.jpg'
 import simonethg from "../assets/speakersHN/simonethg.png"
 import skylar from '../assets/speakersHN/skylar.jpeg'
@@ -117,6 +130,32 @@ const Speakers = () => {
             </Content>
           </BoxItem> */}
 
+         <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/ahhsun_" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%'}} src={ahhsun} />
+              <div>
+                <h1>Ahhsun</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Ethereum Tegucigalpa</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/strategicman_" className="importantPersonContent">
+              <img style={{ objectPosition: '66% 50%'}} src={alex} />
+              <div>
+                <h1>Alex Garcia</h1>
+                <Subtitile>
+                  <Country src={usa} />
+                  <h2>Xucre Network</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/FilosofiaCodigo" className="importantPersonContent">
               <img style={{ objectPosition: '66% 50%'}} src={ahmed} />
@@ -130,12 +169,12 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
-          <BoxItem className="importantPerson">
-            <Content target="_blank" href="https://twitter.com/Ariiellus" className="importantPersonContent">
-              <img style={{ objectPosition: '66% 50%'}} src={ariiellus} />
+          <BoxItem className="vip">
+            <Content target="_blank" href="https://twitter.com/Ariiellus" className="vipContent">
+              <img style={{ objectPosition: '66% 15%'}} src={ariiellus} />
               <div>
                 <h1>Ariiellus</h1>
-                <Subtitile>
+                <Subtitile className='withPadding'>
                   <Country src={mexico} />
                   <h2>Kairos Research</h2>
                 </Subtitile>
@@ -220,6 +259,23 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          <BoxItem className="vip">
+            <Content
+              target="_blank"
+              href="https://twitter.com/Crisincrypto"
+              className="vipContent"
+            >
+              <img style={{ objectPosition: '100% 5%' }} src={cristina} />
+              <div>
+                <h1>Cristina</h1>
+                <Subtitile className='withPadding'>
+                  <Country src={peru} />
+                  <h2>SEED Latam</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           {/*
 
 
@@ -245,15 +301,89 @@ const Speakers = () => {
           <BoxItem className="importantPerson">
             <Content
               target="_blank"
-              href="https://twitter.com/Dmars300"
+              href="https://twitter.com/DnznJuan"
               className="importantPersonContent"
             >
-              <img style={{ objectPosition: '100% 50%' }} src={diegoMares} />
+              <img style={{ objectPosition: '100% 50%' }} src={denizen} />
+              <div>
+                <h1>Juan Denizen</h1>
+                <Subtitile>
+                  <Country src={guatemala} />
+                  <h2>ETH KIPU</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="vip">
+            <Content
+              target="_blank"
+              href="https://twitter.com/Dmars300"
+              className="vipContent"
+            >
+              <img style={{ objectPosition: '100% 15%' }} src={diegoMares} />
               <div>
                 <h1>Diego Mares</h1>
-                <Subtitile>
+                <Subtitile className='withPadding'>
                   <Country src={mexico} />
                   <h2>Cryptoversidad + Optimism Collective</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+            {/* ========== E ============ */}
+
+            <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/blid_one"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={edwin} />
+              <div>
+                <h1>Edwin Fernández</h1>
+                <Subtitile>
+                  <Country src={peru} />
+                  <h2>Definomics Lab</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== F ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/fsanchinelli"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={francis} />
+              <div>
+                <h1>Francis Sanchinelli</h1>
+                <Subtitile>
+                  <Country src={guatemala} />
+                  <h2>Ethereum Guatemala</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== G ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://x.com/hackyguru"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={guru} />
+              <div>
+                <h1>Guru</h1>
+                <Subtitile>
+                  <Country src={india} />
+                  <h2>Waku</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -280,16 +410,16 @@ const Speakers = () => {
 
            {/* ========== J ============ */}
 
-           <BoxItem className="importantPerson">
+           <BoxItem className="vip">
             <Content
               target="_blank"
               href="https://twitter.com/cripto_nita_"
-              className="importantPersonContent"
+              className="vipContent"
             >
-              <img style={{ objectPosition: '50% 50%' }} src={joao} />
+              <img style={{ objectPosition: '50% 15%' }} src={joao} />
               <div>
                 <h1>João Kury</h1>
-                <Subtitile>
+                <Subtitile className='withPadding'>
                   <Country src={brasil} />
                   <h2>Modular Crypto</h2>
                 </Subtitile>
@@ -333,6 +463,40 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/LeeMarreros"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={lee} />
+              <div>
+                <h1>Lee Marreros</h1>
+                <Subtitile>
+                  <Country src={peru} />
+                  <h2>Blockchain Bites</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="#"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={lucy} />
+              <div>
+                <h1>Lucy Aguilar</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Ethereum Tegucigalpa</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           {/* ========== N ============ */}
 
           <BoxItem className="importantPerson">
@@ -347,6 +511,23 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={ecuador} />
                   <h2>EF / PSE</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="vip">
+            <Content
+              target="_blank"
+              href="https://twitter.com/NicoSerranoP"
+              className="vipContent"
+            >
+              <img style={{ objectPosition: '50% 40%' ,objectFit:'cover' }} src={natalia} />
+              <div>
+                <h1>Natalia Madrid</h1>
+                <Subtitile className='withPadding'>
+                  <Country src={colombia} />
+                  <h2>Ethereum Foundation</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -367,6 +548,23 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={mexico} />
                   <h2>Starknet</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/x0yabun"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={oyabun} />
+              <div>
+                <h1>0yabun</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Dragon Money DAO</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -394,16 +592,16 @@ const Speakers = () => {
 
           {/* ========== S ============ */}
 
-          <BoxItem className="importantPerson">
+          <BoxItem className="vip">
             <Content
               target="_blank"
               href="https://twitter.com/samonchain"
-              className="importantPersonContent"
+              className="vipContent"
             >
-              <img style={{ objectPosition: '100% 50%' }} src={sam} />
+              <img style={{ objectPosition: '100% 5%' }} src={sam} />
               <div>
                 <h1>Sam Richards</h1>
-                <Subtitile>
+                <Subtitile className='withPadding'>
                   <Country src={usa} />
                   <h2>EF / PSE</h2>
                 </Subtitile>
