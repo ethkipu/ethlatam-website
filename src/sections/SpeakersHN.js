@@ -27,8 +27,10 @@ import singapore from "../assets/flags/sg.svg"
 import panama from "../assets/flags/pa.svg"
 import guatemala from "../assets/flags/gt.svg"
 import india from "../assets/flags/in.svg"
+import swiss from "../assets/flags/ch.svg"
 
 import ahhsun from '../assets/speakersHN/ahhsun.png'
+import alfonso from '../assets/speakersHN/alfonso.png'
 import alex from '../assets/speakersHN/alex.png'
 import ahmed from '../assets/speakersHN/Ahmed.jpg'
 import alejandro from '../assets/speakersHN/alejandroSantander.png'
@@ -43,22 +45,31 @@ import denizen from '../assets/speakersHN/denizen.png'
 import diegoMares from '../assets/speakersHN/DiegoMares.jpg'
 import edwin from '../assets/speakersHN/edwin.PNG'
 import francis from '../assets/speakersHN/francis.PNG'
+import fabio from '../assets/speakersHN/fabio.png'
 import guru from '../assets/speakersHN/guru.jpeg'
 import isaacGonzales from '../assets/speakersHN/isaac.png'
 import joao from "../assets/speakersHN/Joao.jpg"
 import jose from "../assets/speakersHN/jose.png"
+import joxes from "../assets/speakersHN/joxes.png"
 import lee from "../assets/speakersHN/lee.png"
 import lisa from "../assets/speakersHN/Lisa.png"
 import lucy from "../assets/speakersHN/lucy.jpg"
+import manugotsuka from "../assets/speakersHN/Manugotsuka.png"
+import mattias from "../assets/speakersHN/mattias.png"
 import natalia from "../assets/speakersHN/natalia.png"
+import niklas from "../assets/speakersHN/niklas.png"
 import nicoSerrano from "../assets/speakersHN/nico.png"
 import omar from '../assets/speakersHN/omar.jpg'
 import oyabun from '../assets/speakersHN/oyabun.png'
+import pablo from '../assets/speakersHN/pablo.png'
 import qz from "../assets/speakersHN/QZ.png"
 import sam from '../assets/speakersHN/Sam.jpg'
 import simonethg from "../assets/speakersHN/simonethg.png"
 import skylar from '../assets/speakersHN/skylar.jpeg'
+import sofia from '../assets/speakersHN/sofia.png'
 import solange from '../assets/speakersHN/solange.png'
+import stevan from '../assets/speakersHN/stevan.png'
+import stupidGiant from '../assets/speakersHN/stupidGiant.png'
 import vee from "../assets/speakersHN/Vee.png"
 import vega from "../assets/speakersHN/vega.jpeg"
 import vitalik from "../assets/speakersHN/vitalik.jpeg"
@@ -116,19 +127,6 @@ const Speakers = () => {
           </BoxItem> */}
 
           {/* ========== A ============ */}
-
-          {/* <BoxItem className="importantPerson">
-            <Content target="_blank" href="https://twitter.com/FilosofiaCodigo" className="importantPersonContent">
-              <img style={{ objectPosition: '66% 50%'}} src={ahmed} />
-              <div>
-                <h1>Ahhsun</h1>
-                <Subtitile>
-                  <Country src={honduras} />
-                  <h2>Scroll</h2>
-                </Subtitile>
-              </div>
-            </Content>
-          </BoxItem> */}
 
          <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/ahhsun_" className="importantPersonContent">
@@ -190,6 +188,19 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={uruguay} />
                   <h2>EthernautDAO</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content target="_blank" href="https://twitter.com/acampenni_" className="importantPersonContent">
+              <img style={{ objectPosition: '50% 50%', width:'75px' }} src={alfonso} />
+              <div>
+                <h1>Alfonso Campeni</h1>
+                <Subtitile>
+                  <Country src={argentina} />
+                  <h2>QuarkID</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -276,9 +287,6 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
-          {/*
-
-
           <BoxItem className="importantPerson">
             <Content
               target="_blank"
@@ -294,7 +302,7 @@ const Speakers = () => {
                 </Subtitile>
               </div>
             </Content>
-          </BoxItem> */}
+          </BoxItem>
 
           {/* ========== D ============ */}
 
@@ -309,7 +317,7 @@ const Speakers = () => {
                 <h1>Juan Denizen</h1>
                 <Subtitile>
                   <Country src={guatemala} />
-                  <h2>ETH KIPU</h2>
+                  <h2>ETH Guatemala</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -352,6 +360,23 @@ const Speakers = () => {
           </BoxItem>
 
           {/* ========== F ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/FabioBudris"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={fabio} />
+              <div>
+                <h1>Fabio Budris</h1>
+                <Subtitile>
+                  <Country src={argentina} />
+                  <h2>QuarkID</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
 
           <BoxItem className="importantPerson">
             <Content
@@ -444,6 +469,23 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/0xJoxes"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' }} src={joxes} />
+              <div>
+                <h1>Joxes</h1>
+                <Subtitile>
+                  <Country src={venezuela} />
+                  <h2>SEED Latam</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           {/* ========== L ============ */}
 
           <BoxItem className="supervip">
@@ -497,24 +539,44 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
-          {/* ========== N ============ */}
+          {/* ========== M ============ */}
 
           <BoxItem className="importantPerson">
             <Content
               target="_blank"
-              href="https://twitter.com/NicoSerranoP"
+              href="https://twitter.com/Manugotsuka"
               className="importantPersonContent"
             >
-              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={nicoSerrano} />
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={manugotsuka} />
               <div>
-                <h1>Nicolas Serrano</h1>
+                <h1>Manugotsuka</h1>
                 <Subtitile>
-                  <Country src={ecuador} />
-                  <h2>EF / PSE</h2>
+                  <Country src={venezuela} />
+                  <h2>SEED Latam / L2 en español </h2>
                 </Subtitile>
               </div>
             </Content>
           </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/BronerMatthias"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={mattias} />
+              <div>
+                <h1>Matthias Broner</h1>
+                <Subtitile>
+                  <Country src={argentina} />
+                  <h2>zkSync</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          {/* ========== N ============ */}
+
 
           <BoxItem className="vip">
             <Content
@@ -528,6 +590,41 @@ const Speakers = () => {
                 <Subtitile className='withPadding'>
                   <Country src={colombia} />
                   <h2>Ethereum Foundation</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/NiklasAnzinger"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={niklas} />
+              <div>
+                <h1>Niklas Anzinger</h1>
+                <Subtitile>
+                  <Country src={usa} />
+                  <h2>Vitalia</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/NicoSerranoP"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={nicoSerrano} />
+              <div>
+                <h1>Nicolas Serrano</h1>
+                <Subtitile>
+                  <Country src={ecuador} />
+                  <h2>EF / PSE</h2>
                 </Subtitile>
               </div>
             </Content>
@@ -570,6 +667,24 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          {/* ========== P ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/pmosque3"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={pablo} />
+              <div>
+                <h1>Pablo Mosquella</h1>
+                <Subtitile>
+                  <Country src={argentina} />
+                  <h2>Extrimian</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
 
           {/* ========== Q ============ */}
 
@@ -661,6 +776,57 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/sofi_act"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={sofia} />
+              <div>
+                <h1>Sofia Alvarado</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Ethereum Tegucigalpa</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="vip">
+            <Content
+              target="_blank"
+              href="#"
+              className="vipContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={stevan} />
+              <div>
+                <h1>Estevan Vilar</h1>
+                <Subtitile className='withPadding'>
+                  <Country src={swiss} />
+                  <h2>zkSync</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/giantstupid"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={stupidGiant} />
+              <div>
+                <h1>Stupid Giant</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Artists</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
            {/* ========== V ============ */}
 
            <BoxItem className="importantPerson">
@@ -686,7 +852,7 @@ const Speakers = () => {
               <div>
                 <h1>vegayp.eth</h1>
                 <Subtitile>
-                  <Country src={usa} />
+                  <Country src={panama} />
                   <h2>corpus.ventures / dm3 / ENS DAO</h2>
                 </Subtitile>
               </div>

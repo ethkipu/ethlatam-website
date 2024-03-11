@@ -98,8 +98,8 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Conference</p>
-                    <h3>How Governments are Using Decentralized, Secure Technology</h3>
-                    <p>Panel Identidad Digital</p>
+                    <h3>Explorando el impacto de ZK y QuarkID en Latinoamérica</h3>
+                    <p>Mod: TBD | Alfonso Campenni, Pablo Mosquella, Matthias Broner</p>
                   </div>
                 </div>
               </Entry>
@@ -138,7 +138,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Edge cases of Public Goods and how they change your life.</h3>
+                    <h3>ENS & dm3 protocol</h3>
                     <p>
                         vegayp.eth, ENS
                     </p>
@@ -155,9 +155,9 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3> TBD </h3>
+                    <h3>Ecosystem building 101: No you don’t actually want to do an ETH event</h3>
                     <p>
-                        Joxes
+                    QZ
                     </p>
                   </div>
                   <div>
@@ -174,9 +174,10 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Ecosystem building 101: No you don’t actually want to do an ETH event</h3>
+
+                    <h3> Superchain, Hyperchains, Orbit chains, Fractal Scaling, L3... ¿Qué? </h3>
                     <p>
-                    QZ
+                        Joxes
                     </p>
                   </div>
                   <div>
@@ -253,9 +254,9 @@ const Schedule = () => {
                   <div>
                     <p>Sala Conference</p>
                     <h3>
-                        Actualidad del Staking
+                    Panel: Staking
                     </h3>
-                    <p>Isaac González, Alan Estrada, Edax Uclés. Mod. Lola Rodríguez</p>
+                    <p>Mod: Lola Rodríguez (ETH Kipu). Isaac Gonzalez (Lido community), Alan Estrada (Meta Pool), Edax Uclés (Obol)</p>
                   </div>
                 </div>
               </Entry>
@@ -264,9 +265,9 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Bringing ZK Tech to Latam</h3>
+                    <h3>zkSync y la aplicación de blockchain en la Ciudad de Buenos Aires</h3>
                     <p>
-                    zkSync
+                    Estevan Vilar (zkSync), Fabio Budris (QuarkID)
                     </p>
                   </div>
                   <div>
@@ -283,9 +284,9 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Desarollo de comunidades en LATAM</h3>
+                    <h3>Panel: Desarollo de comunidades en LATAM</h3>
                     <p>
-                    Cypherbadger (ES), Julio Cesar Arango (COL), Sofia (TGU)
+                    Mod: Cristina Meza Murillo | Cypherbadger (ETH Volcano), Sofia (ETH Tegucigalpa), Sofia (Proof-of-Integrity).
                     </p>
                   </div>
                   <div>
@@ -302,16 +303,16 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Desarrollo en Centroamerica</h3>
+                    <h3>Panel: Desarrollo en Centroamerica</h3>
                     <p>
-                    Niklass, Cofi blocks, Alex Garcia, Sofia. Modera: Juan Molina
+                    Mod: Juan Molina | Niklas Anzinger (Vitalia), Alex Garcia (Xucre), Francis Sanchinelli (Emprendedor Web3)
                     </p>
                   </div>
                   <div>
                     <p>Sala Conference</p>
                     <h3>Desafíos y aciertos de la gobernanza web3</h3>
                     <p>
-                    Joxes, Cristina Meza Murillo, Manuel González, ccarella.eth
+                    Mod: Romina (ETH Kipu) | Joxes (Wonderland), Cristina Meza (SEED Latam), Manu (Layer 2 en Español)
                     </p>
                   </div>
                 </div>
@@ -328,9 +329,9 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Cross-chain interoperability between hundreds of chains and modular rollups</h3>
+                    <h3>Desafíos del mundo cross-chain: cómo mejorar la experiencia del usuario.</h3>
                     <p>
-                        Alexander Cervantes
+                    Alexander Cervantes (LiFi), Julián Mora
                     </p>
                   </div>
                 </div>
@@ -418,7 +419,7 @@ const Schedule = () => {
                   <div>
                     <p>Sala Workshops</p>
                     <h3>Cómo crear un smart contract con Internet Computer</h3>
-                    <p>ICP</p>
+                    <p>Jordan Last</p>
                   </div>
                 </div>
               </Entry>
@@ -430,7 +431,7 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Axelar Workshop</h3>
+                    <h3>Intro to Axelar and GMP</h3>
                     <p>Kate Stapleton</p>
                   </div>
                 </div>
@@ -446,7 +447,7 @@ const Schedule = () => {
                   <div>
                     <p>Sala Workshop</p>
                     <h3>Desarrollo e integración de un LST en una dApp con Meta Pool</h3>
-                    <p>Metapool</p>
+                    <p>Alan Estrada</p>
                   </div>
                 </div>
               </Entry>
@@ -475,7 +476,7 @@ const Schedule = () => {
                     </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Estado de los Seguros DeFi 2024</h3>
+                    <h3>¿Los protocolos tienen el dinero para pagar los exploits?</h3>
                     <p>Blid One</p>
                   </div>
                 </div>
@@ -490,7 +491,7 @@ const Schedule = () => {
                     </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Business Model Canvas Web3 </h3>
+                    <h3>Cómo crear tu business model canvas web3</h3>
                     <p>Francis Sanchinelli</p>
                   </div>
                 </div>
@@ -516,8 +517,8 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>TBD</h3>
-                    <p>Oscar Fonseca</p>
+                    <h3>Testea tu primer smart contract</h3>
+                    <p>Simoneth</p>
                   </div>
                   <div>
                     <p>Sala Workshop</p>
@@ -531,7 +532,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Scroll</h3>
+                    <h3>Desarrollo de ZK en Solidity para principiantes</h3>
                     <p>Ahmed</p>
                   </div>
                   <div>
@@ -562,7 +563,7 @@ const Schedule = () => {
                   <div>
                     <p>Sala Workshop</p>
                     <h3>Uncompromising web3 communication at scale with Waku</h3>
-                    <p>Guru</p>
+                    <p>Guru T</p>
                   </div>
                   <div>
                     <p>Sala Workshop</p>
