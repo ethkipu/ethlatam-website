@@ -32,57 +32,414 @@ const Schedule = () => {
           <Day>
             <Date className="one">
               <h2>
-                <span className="pixel">Charlas</span>
+                <span className="pixel">MIE 13</span>
               </h2>
             </Date>
             <Talks>
             <Entry>
                 <Hours></Hours>
-                <div className="twoColumns">
-                  <div>
-                  <h2>
-                <span className="pixel white">MIERCOLES</span>
-              </h2>
-                  </div>
-                  <div>
-                  <h2>
-                <span className="pixel white">JUEVES</span>
-              </h2>
-                  </div>
+                <div className="">
+                      <h2>
+                     <span className="pixel white">CHARLAS</span>
+                     </h2>
                 </div>
               </Entry>
               <Entry>
                 <Hours>8:30 - 9:00</Hours>
-                <div className="twoColumns">
-                    <div>
+                <div >
                         <h3>Apertura de puertas - Registro de asistentes</h3>
-                    </div>
-                    <div>
-                        <h3> - </h3>
-                    </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>9:00 - 9:30</Hours>
-                <div className="twoColumns">
+                <div >
                     <div>
                         <p>Sala Conference</p>
                         <h3>Bienvenida</h3>
-                        <p>Lucy Aguilar, Ethereum Tegucigalpa</p>
-                    </div>
-                    <div>
-                        <h3> - </h3>
+                        <p>Lucy - ETH Tegucigalpa + Presentación Alcalde Roberto Contreras</p>
                     </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>9:30 - 10:00</Hours>
-                <div className="twoColumns">
+                <div >
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Entrevista a Vitalik (Online)</h3>
+                    <h3>Entrevista a Vitalik (Online) por Crisgarner</h3>
                     <p>Vitalik, Ethereum Foundation</p>
                   </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>10:00 - 10:30</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Los valores que sostienen a Ethereum</h3>
+                    <p>Skylar, Ethereum Foundation</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>10:30 - 11:00</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Navigating the Infinite Garden: Finding your place in Ethereum</h3>
+                    <p>Chris Lema, Scroll</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>11:00 - 11:30</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Community Funding 2.0</h3>
+                    <p>Vee, PSE / Ethereum Foundation</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>11:30 - 12:00</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Unusual public goods and how to fund them</h3>
+                    <p>
+                        vegayp.eth
+                    </p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>12:00 - 12:30</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Ecosystem building 101: No you don’t actually want to do an ETH event</h3>
+                    <p>
+                    QZ
+                    </p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>12:30 - 13:00</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+
+                    <h3> Panel: Actualidad del ecosistema NFT </h3>
+                    <p>
+                    Mod: Ahhsun | Oyabun (Dragon Money DAO), StupidGiant (NFT artist), Denizen Juan (ETH Guatemala, Rug Radio ES)
+                    </p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>13:00 - 13:30</Hours>
+                <div>
+                  <div>
+                    <h3>Almuerzo</h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>13:30 - 14:00</Hours>
+                <div >
+                  <div>
+                    <h3>Almuerzo</h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>14:00 - 14:30</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>¿Cómo financiar tu proyecto haciendo lo que te gusta?</h3>
+                    <p>Diego Mares</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>14:30 -15:00</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>
+                        ¿Cómo ser parte de la comunidad siendo un “outsider”? Una cita con el psicólogo
+                    </h3>
+                    <p>Natalia Madrid</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>15:00 -15:30</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Starknet es la respuesta de Ethereum a Solana</h3>
+                    <p>Omar Espejel</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>15:30 - 16:00</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>zkSync y la aplicación de blockchain en la Ciudad de Buenos Aires</h3>
+                    <p>
+                    Estevan Vilar (zkSync), Fabio Budris (QuarkID)
+                    </p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>16:00 - 16:30</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Panel: Desarollo de comunidades en LATAM</h3>
+                    <p>
+                    Mod: Cristina Meza Murillo | Sofia (ETH Tegucigalpa), Sofia (Proof-of-Integrity), Cypherbadger (ETH Volcano)
+                    </p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>16:30 - 17:00</Hours>
+                <div >
+                  <div>
+                    <p>Sala Conference</p>
+                    <h3>Panel: Desarrollo en Centroamerica</h3>
+                    <p>
+                     Niklas Anzinger (Vitalia), Alex Garcia (Xucre), Francis Sanchinelli (Emprendedor Web3)
+                    </p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>17:00 - 17:30</Hours>
+                <div >
+                  <div>
+                    <h3>Cierra a cargo de la organización de ETH Latam</h3>
+                  </div>
+                </div>
+              </Entry>
+            </Talks>
+          </Day>
+
+
+
+          <Day>
+            <Date className='two'>
+              <h2>
+                <span className="pixel">MIE 13</span>
+              </h2>
+            </Date>
+            <Talks>
+            <Entry>
+                <Hours></Hours>
+                <div>
+                  <div>
+                  <h2>
+                <span className="pixel white">WORKSHOPS</span>
+              </h2>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>08:30 - 09:00</Hours>
+                <div>
+                  <div>
+                  <h3>Introducción en Sala Conference</h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>09:00 - 09:30</Hours>
+                <div>
+                  <div>
+                    <p>Sala Workshops</p>
+                    <h3>Apertura de puertas - Registro de asistentes</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>09:30 - 10:00</Hours>
+                <div>
+                  <div>
+                    <h3>Vitalik en Sala Conference</h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>10:00 - 10:30</Hours>
+                <div>
+                  <div>
+                    <h3> Apertura de Hackathon </h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>10:30 - 11:00</Hours>
+                <div>
+                  <div>
+                    <h3>Formación de equipos para hackathon</h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>11:00 - 11:30</Hours>
+                <div>
+                  <div>
+                    <p>Sala Workshops</p>
+                    <h3>Cross-chain NFTs basado en cotizaciones usando Chainlink CCIP.</h3>
+                    <p>Solange Gueiros</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>11:30 - 12:00</Hours>
+                <div>
+                  <div>
+                  <p>Sala Workshops</p>
+                    <h3>Cross-chain NFTs basado en cotizaciones usando Chainlink CCIP.</h3>
+                    <p>Solange Gueiros</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>12:00 - 12:30</Hours>
+                <div>
+                <div>
+                    <p>Sala Workshop</p>
+                    <h3>Uncompromising web3 communication at scale with Waku</h3>
+                    <p>Guru T</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>12:30 - 13:00</Hours>
+                <div>
+                <div>
+                    <p>Sala Workshop</p>
+                    <h3>Uncompromising web3 communication at scale with Waku</h3>
+                    <p>Guru T</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>13:00 - 13:30</Hours>
+                <div>
+                    <div>
+                    <h3>Almuerzo</h3>
+                    </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>13:30 - 14:00</Hours>
+                <div>
+                    <div style={{alignItems:"center"}}>
+                    <h3>Almuerzo</h3>
+                    </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>14:00 - 14:30</Hours>
+                <div>
+                <div>
+                    <p>Sala Workshop</p>
+                    <h3>Desarrollo de ZK en Solidity para principiantes</h3>
+                    <p>Ahmed</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>14:30 - 15:00</Hours>
+                <div>
+                  <div>
+                    <p>Sala Workshop</p>
+                    <h3>Desarrollo de ZK en Solidity para principiantes</h3>
+                    <p>Ahmed</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>15:00 - 15:30</Hours>
+                <div>
+                    <div>
+                        <p>Sala Workshop</p>
+                        <h3>MACI Workshop</h3>
+                        <p>Sam Richards</p>
+                    </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>15:30 - 16:00</Hours>
+                <div>
+                <div>
+                        <p>Sala Workshop</p>
+                        <h3>MACI Workshop</h3>
+                        <p>Sam Richards</p>
+                    </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>16:00 - 16:30</Hours>
+                <div>
+                  <div>
+                    <p>Sala Workshop</p>
+                    <h3>Seguros DeFi: ¿Los protocolos tienen el dinero para pagar los exploits?</h3>
+                    <p>Blid One (Edwin Fernández)</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>16:30 - 17:00</Hours>
+                <div>
+                <div>
+                    <p>Sala Workshop</p>
+                    <h3>Seguros DeFi: ¿Los protocolos tienen el dinero para pagar los exploits?</h3>
+                    <p>Blid One (Edwin Fernández)</p>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>17:00 - 17:30</Hours>
+                <div>
+                  <div>
+                    <h3>Cierra a cargo de la organización de ETH Latam</h3>
+                  </div>
+                </div>
+              </Entry>
+            </Talks>
+          </Day>
+
+          <Day>
+            <Date className="three">
+              <h2>
+                <span className="pixel">JUE 14</span>
+              </h2>
+            </Date>
+            <Talks>
+            <Entry>
+                <Hours></Hours>
+                <div >
+                  <div>
+                  <h2>
+                <span className="pixel white">CHARLAS</span>
+              </h2>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>9:30 - 10:00</Hours>
+                <div>
                   <div>
                   <h3>Apertura de puertas</h3>
                   </div>
@@ -90,27 +447,17 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>10:00 - 10:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Los valores que sostienen a Ethereum</h3>
-                    <p>Skylar, Ethereum Foundation</p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>Explorando el impacto de ZK y QuarkID en Latinoamérica</h3>
-                    <p>Mod: TBD | Alfonso Campenni, Pablo Mosquella, Matthias Broner</p>
+                    <p>Mod: Chuy Cepeda | Alfonso Campenni (Gob. de Buenos Aires), Pablo Mosquella (Extrimian), Matthias Broner (zkSync)</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>10:30 - 11:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Navigating the Infinite Garden: Finding your place in Ethereum</h3>
-                    <p>Chris Lema, Scroll</p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>Aceleración Modular: DeFi, Artes, Videojuegos e Identidad en un mundo Multicadena</h3>
@@ -120,12 +467,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>11:00 - 11:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Community Funding 2.0</h3>
-                    <p>Vee, PSE / Ethereum Foundation</p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>Introducción a Zero Knowledge</h3>
@@ -135,31 +477,17 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>11:30 - 12:00</Hours>
-                <div className="twoColumns">
+                <div >
                   <div>
                     <p>Sala Conference</p>
-                    <h3>ENS & dm3 protocol</h3>
-                    <p>
-                        vegayp.eth, ENS
-                    </p>
-                  </div>
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>¿Por qué las ceremonias son importantes en ZK?</h3>
-                    <p>Nico Serrano, PSE / Ethereum Foundation</p>
+                    <h3>Desafíos del mundo cross-chain: cómo mejorar la experiencia del usuario.</h3>
+                    <p>Alexander Cervantes (LiFi), Julián Morla (LiFi)</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>12:00 - 12:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Ecosystem building 101: No you don’t actually want to do an ETH event</h3>
-                    <p>
-                    QZ
-                    </p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>Identidad web3: expandiendo lo posible con zero-knowledge</h3>
@@ -171,15 +499,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>12:30 - 13:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-
-                    <h3> Superchain, Hyperchains, Orbit chains, Fractal Scaling, L3... ¿Qué? </h3>
-                    <p>
-                        Joxes
-                    </p>
-                  </div>
+                <div >
                   <div>
                   <p>Sala Conference</p>
                     <h3>Token economics and data analytics: how to deal with tokenomics</h3>
@@ -203,18 +523,11 @@ const Schedule = () => {
                   <div>
                     <h3>Almuerzo</h3>
                   </div>
-                  <div>
-                  </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>14:00 - 14:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>¿Cómo financiar tu proyecto haciendo lo que te gusta?</h3>
-                    <p>Diego Mares</p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>El estado actual de Proposal Builder Separation</h3>
@@ -226,14 +539,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>14:30 -15:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>
-                        ¿Cómo ser parte de la comunidad siendo un “outsider”? Una cita con el psicólogo
-                    </h3>
-                    <p>Natalia Madrid</p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>Lido: ¿neto positivo o negativo?</h3>
@@ -245,12 +551,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>15:00 -15:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Starknet es la respuesta de Ethereum a Solana</h3>
-                    <p>Omar Espejel</p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>
@@ -262,14 +563,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>15:30 - 16:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>zkSync y la aplicación de blockchain en la Ciudad de Buenos Aires</h3>
-                    <p>
-                    Estevan Vilar (zkSync), Fabio Budris (QuarkID)
-                    </p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>Secuenciadores Decentralizados: Seguridad, vividez, y eficiencia de capital en Layer 2s de Ethereum</h3>
@@ -281,14 +575,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>16:00 - 16:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Panel: Desarollo de comunidades en LATAM</h3>
-                    <p>
-                    Mod: Cristina Meza Murillo | Cypherbadger (ETH Volcano), Sofia (ETH Tegucigalpa), Sofia (Proof-of-Integrity).
-                    </p>
-                  </div>
+                <div >
                   <div>
                     <p>Sala Conference</p>
                     <h3>La promesa de la votación en blockchain</h3>
@@ -300,50 +587,21 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>16:30 - 17:00</Hours>
-                <div className="twoColumns">
+                <div >
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Panel: Desarrollo en Centroamerica</h3>
+                    <h3>Decisiones en la era digital: Gobernanza de las DAOs</h3>
                     <p>
-                    Mod: Juan Molina | Niklas Anzinger (Vitalia), Alex Garcia (Xucre), Francis Sanchinelli (Emprendedor Web3)
-                    </p>
-                  </div>
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Desafíos y aciertos de la gobernanza web3</h3>
-                    <p>
-                    Mod: Romina (ETH Kipu) | Joxes (Wonderland), Cristina Meza (SEED Latam), Manu (Layer 2 en Español)
+                    Cristina Meza Murillo
                     </p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>17:00 - 17:30</Hours>
-                <div className="twoColumns">
+                <div >
                   <div>
-                    <p>Sala Conference</p>
-                    <h3>Actualidad en el ecosistema NFT</h3>
-                    <p>
-                      Gustavo Carvajal, StupidGiant, Renato Martinez, Juan Denize. Modera: Ahhsun
-                    </p>
-                  </div>
-                  <div>
-                    <p>Sala Conference</p>
-                    <h3>Desafíos del mundo cross-chain: cómo mejorar la experiencia del usuario.</h3>
-                    <p>
-                    Alexander Cervantes (LiFi), Julián Mora
-                    </p>
-                  </div>
-                </div>
-              </Entry>
-              <Entry>
-                <Hours>17:30 - 18:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <h3> - </h3>
-                  </div>
-                  <div>
-                    <h3>Cierre</h3>
+                    <h3>Cierra a cargo de la organización de ETH Latam</h3>
                   </div>
                 </div>
               </Entry>
@@ -354,57 +612,26 @@ const Schedule = () => {
 {/* Workshops */}
 
           <Day>
-            <Date>
+            <Date className="four">
               <h2>
-                <span className="pixel">Workshops</span>
+                <span className="pixel">JUE 14</span>
               </h2>
             </Date>
             <Talks>
             <Entry>
                 <Hours></Hours>
-                <div className="twoColumns">
+                <div>
                   <div>
                   <h2>
-                <span className="pixel white">MIERCOLES</span>
-              </h2>
-                  </div>
-                  <div>
-                  <h2>
-                <span className="pixel white">JUEVES</span>
+                <span className="pixel white">WORKSHOPS</span>
               </h2>
                   </div>
                 </div>
               </Entry>
-              <Entry>
-                <Hours>08:30 - 09:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                  <h3>Introducción en Sala Conference</h3>
-                  </div>
-                  <div>
-                    <h3> - </h3>
-                  </div>
-                </div>
-              </Entry>
-              <Entry>
-                <Hours>09:00 - 09:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Workshops</p>
-                    <h3>Apertura de puertas - Registro de asistentes</h3>
-                    <p></p>
-                  </div>
-                  <div>
-                    <h3> - </h3>
-                  </div>
-                </div>
-              </Entry>
+
               <Entry>
                 <Hours>09:30 - 10:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <h3>Vitalik en Sala Conference</h3>
-                  </div>
+                <div>
                   <div>
                     <h3> Apertura de puertas - Registro de asistentes </h3>
                   </div>
@@ -412,10 +639,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>10:00 - 10:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <h3> Apertura de Hackathon </h3>
-                  </div>
+                <div>
                   <div>
                     <p>Sala Workshops</p>
                     <h3>Cómo crear un smart contract con Internet Computer</h3>
@@ -425,10 +649,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>10:30 - 11:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <h3>Formación de equipos para hackathon</h3>
-                  </div>
+                <div>
                   <div>
                     <p>Sala Workshop</p>
                     <h3>Intro to Axelar and GMP</h3>
@@ -438,12 +659,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>11:00 - 11:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Workshops</p>
-                    <h3>Cross-chain NFTs basado en cotizaciones usando Chainlink CCIP.</h3>
-                    <p>Solange Gueiros</p>
-                  </div>
+                <div>
                   <div>
                     <p>Sala Workshop</p>
                     <h3>Desarrollo e integración de un LST en una dApp con Meta Pool</h3>
@@ -453,46 +669,31 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>11:30 - 12:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                  <p>Sala Workshops</p>
-                    <h3>Cross-chain NFTs basado en cotizaciones usando Chainlink CCIP.</h3>
-                    <p>Solange Gueiros</p>
-                  </div>
+                <div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Metapool Workshop</h3>
-                    <p>Metapool</p>
+                    <h3>Desarrollo e integración de un LST en una dApp con Meta Pool</h3>
+                    <p>Alan Estrada</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>12:00 - 12:30</Hours>
-                <div className="twoColumns">
                 <div>
-                    <p>Sala Workshop</p>
-                    <h3>MACI Workshop</h3>
-                    <p>Sam Richards</p>
-                    </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>¿Los protocolos tienen el dinero para pagar los exploits?</h3>
-                    <p>Blid One</p>
+                    <h3>Omar Espejel</h3>
+                    <p>Introducción a Starknet</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>12:30 - 13:00</Hours>
-                <div className="twoColumns">
+                <div>
                 <div>
                     <p>Sala Workshop</p>
-                    <h3>MACI Workshop</h3>
-                    <p>Sam Richards</p>
-                    </div>
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Cómo crear tu business model canvas web3</h3>
-                    <p>Francis Sanchinelli</p>
+                    <h3>Omar Espejel</h3>
+                    <p>Introducción a Starknet</p>
                   </div>
                 </div>
               </Entry>
@@ -507,65 +708,45 @@ const Schedule = () => {
               <Entry>
                 <Hours>13:30 - 14:00</Hours>
                 <div>
-                    <div style={{alignItems:"center;"}}>
+                    <div style={{alignItems:"center"}}>
                     <h3>Almuerzo</h3>
                     </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>14:00 - 14:30</Hours>
-                <div className="twoColumns">
+                <div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Testea tu primer smart contract</h3>
-                    <p>Simoneth</p>
-                  </div>
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Solidity Crash Course: De Cero a Héroe en 60 minutos</h3>
-                    <p>Lee Marreros</p>
+                    <h3>Cómo crear tu business model canvas web3</h3>
+                    <p>Francis Sanchinelli</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>14:30 - 15:00</Hours>
-                <div className="twoColumns">
-                  <div>
+                <div>
+                <div>
                     <p>Sala Workshop</p>
-                    <h3>Desarrollo de ZK en Solidity para principiantes</h3>
-                    <p>Ahmed</p>
-                  </div>
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Crash Course en Solidity / OPCODES</h3>
-                    <p>Lee Marreros</p>
+                    <h3>Cómo crear tu business model canvas web3</h3>
+                    <p>Francis Sanchinelli</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>15:00 - 15:30</Hours>
-                <div className="twoColumns">
-                  <div>
+                <div>
+                <div>
                     <p>Sala Workshop</p>
-                    <h3>Desarrollo de ZK en Solidity para principiantes</h3>
-                    <p>Ahmed</p>
-                  </div>
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Aplicaciones de Web3</h3>
-                    <p> - </p>
+                    <h3>Cómo mintear tu primer NFT</h3>
+                    <p>Ahhsun</p>
                   </div>
                 </div>
               </Entry>
               <Entry>
                 <Hours>15:30 - 16:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Uncompromising web3 communication at scale with Waku</h3>
-                    <p>Guru T</p>
-                  </div>
-                  <div>
+                <div>
+                <div>
                     <p>Sala Workshop</p>
                     <h3>Cómo mintear tu primer NFT</h3>
                     <p>Ahhsun</p>
@@ -574,12 +755,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>16:00 - 16:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Uncompromising web3 communication at scale with Waku</h3>
-                    <p>Waku</p>
-                  </div>
+                <div>
                   <div>
                     <h3>Cierre de Hackathon</h3>
                   </div>
@@ -587,12 +763,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>16:30 - 17:00</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Introducción a Starknet</h3>
-                    <p>Starknet</p>
-                  </div>
+                <div>
                   <div>
                     <h3>Cierre de Hackathon</h3>
                   </div>
@@ -600,12 +771,7 @@ const Schedule = () => {
               </Entry>
               <Entry>
                 <Hours>17:00 - 17:30</Hours>
-                <div className="twoColumns">
-                  <div>
-                    <p>Sala Workshop</p>
-                    <h3>Introducción a Starknet</h3>
-                    <p>Starknet</p>
-                  </div>
+                <div>
                   <div>
                     <h3>Cierre de Hackathon</h3>
                   </div>
