@@ -30,7 +30,7 @@ export default function EthToLatam(){
             <span class='pixel'>&#60;DATE&#62;</span><White> <FormattedMessage id="hackathon.date" /> </White> <span class='pixel'>&#60;/DATE&#62;</span><br/>
             <span class='pixel'>&#60;PLACE&#62;</span> <Blue>SAN PEDRO SULA</Blue> <span class='pixel'>&#60;/PLACE&#62;</span>
           </h2>
-          <ButtonHackathon color={PALETTE.PINK} href="https://taikai.network/ethlatam/hackathons/honduras" target="_blank">
+          <ButtonHackathon color={PALETTE.PINK} href="https://taikai.network/ethlatam/hackathons/honduras" target="_blank" aria-disabled="true">
             <FormattedMessage id="hackathon.cta" />
           </ButtonHackathon>
         </Box>
