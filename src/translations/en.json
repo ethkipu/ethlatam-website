@@ -17,7 +17,7 @@
 
 
   "hackathon.date":"MARCH 13 & 14",
-  "hackathon.cta":"APPLY",
+  "hackathon.cta":"SUMMARY",
 
 
   "venue.link": "→ Useful information",
@@ -79,7 +79,7 @@
   "honduras.hero.date": "13-14",
   "honduras.hero.month": "MARCH",
   "honduras.hero.year": "2024",
-  "honduras.hero.button": "Get Tickets!",
+  "honduras.hero.button": "Vote in round!",
   "honduras.hero.city": "@San<br>pedrosula",
   "honduras.hero.country": ">> Honduras",
   "honduras.venue.title": "COPANTL <span class='pixel'>Con</span>venti<span class='pixel'>on</span> C<span class='pixel'>en</span>te<span class='pixel'>r</span>",

@@ -31,8 +31,8 @@ function Honduras() {
                     <FormattedMessage id="navbar.venue" />
                 </Link>
             </Navbar>
-            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"https://pretix.eu/ethlatam/sps/"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
-            <Apply />
+            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"https://faucet.ethlatam.org/"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
+            {/* <Apply /> */}
             <HackathonHN edition={EDITIONS.HONDURAS}/>
             <EthToLatam edition={EDITIONS.HONDURAS} />
             <Loop reverse content={<img src={date1} alt="smothing honduras" />} />
