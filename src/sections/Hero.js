@@ -1,12 +1,12 @@
 import React from 'react'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
-import background from '../assets/hero-line.svg'
+import { FormattedHTMLMessage, FormattedMessage } from 'react-intl'
 import styled from 'styled-components'
+import { PALETTE } from '../App'
+import background from '../assets/hero-line.svg'
 import logo from '../assets/logo.svg'
-import Loop from '../components/Loop'
 import { Button } from '../components/Button'
 import Container from '../components/Container'
-import { PALETTE } from '../App'
+import Loop from '../components/Loop'
 import { TextPixel } from '../components/TextPixel'
 
 const Hero = ({ buttonSrc, loopSrc, color, colorButton, edition }) => {
