@@ -1,19 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import { FormattedHTMLMessage } from 'react-intl'
 import styled from 'styled-components'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
-import location from '../assets/location.svg'
-import side from '../assets/side.png'
-import sideLarge from '../assets/side.png'
 import sideSmall from '../assets/side-small.png'
+import side from '../assets/side.png'
 
 export default function App() {
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
-  const [isOpen, setOpen] = useState(false)
   const medium = 700
-  const large = 1445
 
   return (
     <TheOtherSideSection id="theOtherSide">

@@ -1,24 +1,24 @@
-import Navbar from "../sections/Navbar";
-import Hero from '../sections/Hero'
-import EthToLatam from '../sections/EthToLatam'
-import Speakers from '../sections/Speakers'
-import Sponsors from '../sections/Sponsors'
-import Schedule from '../sections/Schedule'
-import MediaPartners from '../sections/MediaPartners'
-import Faqs from '../sections/Faqs'
-import TheOtherSide from '../sections/TheOtherSide'
-import Venue from '../sections/Venue'
-import Footer from '../sections/Footer'
-import date1 from '../assets/date1.svg'
-import date2 from '../assets/date2.svg'
-import Loop from "../components/Loop";
-import loopArg from '../assets/carousel-ba.png'
-import { PALETTE } from "../App";
-import venueSmSrc from '../assets/venue-small.png'
-import venueLgSrc from '../assets/venue-large.png'
-import { Link } from "react-scroll";
 import { FormattedMessage } from "react-intl";
+import { Link } from "react-scroll";
+import { PALETTE } from "../App";
+import loopArg from '../assets/carousel-ba.png';
+import date1 from '../assets/date1.svg';
+import date2 from '../assets/date2.svg';
+import venueLgSrc from '../assets/venue-large.png';
+import venueSmSrc from '../assets/venue-small.png';
+import Loop from "../components/Loop";
 import EDITIONS from "../editions";
+import EthToLatam from '../sections/EthToLatam';
+import Faqs from '../sections/Faqs';
+import Footer from '../sections/Footer';
+import Hero from '../sections/Hero';
+import MediaPartners from '../sections/MediaPartners';
+import Navbar from "../sections/Navbar";
+import Schedule from '../sections/Schedule';
+import Speakers from '../sections/Speakers';
+import Sponsors from '../sections/Sponsors';
+import TheOtherSide from '../sections/TheOtherSide';
+import Venue from '../sections/Venue';
 
 function BuenosAires() {
     return (
