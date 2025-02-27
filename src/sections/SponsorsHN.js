@@ -1,28 +1,28 @@
 import React, { useEffect, useState } from 'react'
-import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
+import styled from 'styled-components'
 
-import esp from '../assets/sponsorsHN/esp.svg'
-import pse from '../assets/sponsorsHN/pse.png'
-import apecoin from '../assets/sponsorsHN/ape.png'
-import scroll from '../assets/sponsorsHN/scroll.png'
-import waku from '../assets/sponsorsHN/waku.svg'
-import icp from '../assets/sponsorsHN/icp.png'
-import chainlink from '../assets/sponsorsHN/chainlink.png'
-import metis from '../assets/sponsorsHN/metis.png'
-import metapool from '../assets/sponsorsHN/metapool.svg'
-import starknet from "../assets/sponsorsHN/starknet.svg"
 import eas from "../assets/sponsorsHN/EAS.png"
+import apecoin from '../assets/sponsorsHN/ape.png'
 import axelar from "../assets/sponsorsHN/axelar.png"
-import ens from "../assets/sponsorsHN/ens_logo_dao.png"
+import chainlink from '../assets/sponsorsHN/chainlink.png'
 import dora from "../assets/sponsorsHN/dora.png"
-import zksync from "../assets/sponsorsHN/zksync.png"
-import quark from "../assets/sponsorsHN/quarkID.png"
-import xucre from "../assets/sponsorsHN/xucre.png"
-import vitalia from "../assets/sponsorsHN/vitalia.png"
-import laprensa from "../assets/sponsorsHN/laprensa.png"
+import ens from "../assets/sponsorsHN/ens_logo_dao.png"
+import esp from '../assets/sponsorsHN/esp.svg'
+import icp from '../assets/sponsorsHN/icp.png'
 import ihcafe from "../assets/sponsorsHN/ihcafe.png"
+import laprensa from "../assets/sponsorsHN/laprensa.png"
+import metapool from '../assets/sponsorsHN/metapool.svg'
+import metis from '../assets/sponsorsHN/metis.png'
 import passion from "../assets/sponsorsHN/passion.png"
+import pse from '../assets/sponsorsHN/pse.png'
+import quark from "../assets/sponsorsHN/quarkID.png"
+import scroll from '../assets/sponsorsHN/scroll.png'
+import starknet from "../assets/sponsorsHN/starknet.svg"
+import vitalia from "../assets/sponsorsHN/vitalia.png"
+import waku from '../assets/sponsorsHN/waku.svg'
+import xucre from "../assets/sponsorsHN/xucre.png"
+import zksync from "../assets/sponsorsHN/zksync.png"
 
 import { useLanguage } from '../context/LanguageContext'
 

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
+import styled from 'styled-components'
 
-import ens from '../assets/sponsorsBog/ens.svg'
-import push from '../assets/sponsorsBog/Push.svg'
-import opt from '../assets/sponsorsBog/opt.svg'
 import optEsp from '../assets/sponsorsBog/OPESP.svg'
+import push from '../assets/sponsorsBog/Push.svg'
+import ens from '../assets/sponsorsBog/ens.svg'
 import layer from '../assets/sponsorsBog/layer.png'
 import livepeer from '../assets/sponsorsBog/livepeer.svg'
+import opt from '../assets/sponsorsBog/opt.svg'
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsBog = () => {

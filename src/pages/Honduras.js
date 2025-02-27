@@ -1,24 +1,23 @@
-import Navbar from "../sections/Navbar";
-import Hero from '../sections/Hero'
-import HackathonHN from "../sections/HackathonHN";
-import EthToLatam from '../sections/EthToLatam'
-import SpeakersHN from '../sections/SpeakersHN'
-import SponsorsHN from '../sections/SponsorsHN'
-import CommunityHN from '../sections/CommunityHN'
-import TheOtherSideHN from '../sections/TheOtherSideHN'
-import AgendaHN from '../sections/AgendaHN'
-import Venue from '../sections/Venue'
-import Footer from '../sections/Footer'
-import Loop from '../components/Loop'
-import loopHonduras from '../assets/carousel-honduras.png'
-import { PALETTE } from "../App";
-import Apply from "../sections/Apply";
-import date1 from "../assets/date1-honduras.svg"
-import date2 from "../assets/date2-honduras.svg"
-import venueSmSrc from '../assets/venue-honduras.png'
-import { Link } from "react-scroll";
 import { FormattedMessage } from "react-intl";
+import { Link } from "react-scroll";
+import { PALETTE } from "../App";
+import loopHonduras from '../assets/carousel-honduras.png';
+import date1 from "../assets/date1-honduras.svg";
+import date2 from "../assets/date2-honduras.svg";
+import venueSmSrc from '../assets/venue-honduras.png';
+import Loop from '../components/Loop';
 import EDITIONS from "../editions";
+import AgendaHN from '../sections/AgendaHN';
+import CommunityHN from '../sections/CommunityHN';
+import EthToLatam from '../sections/EthToLatam';
+import Footer from '../sections/Footer';
+import HackathonHN from "../sections/HackathonHN";
+import Hero from '../sections/Hero';
+import Navbar from "../sections/Navbar";
+import SpeakersHN from '../sections/SpeakersHN';
+import SponsorsHN from '../sections/SponsorsHN';
+import TheOtherSideHN from '../sections/TheOtherSideHN';
+import Venue from '../sections/Venue';
 
 function Honduras() {
     return (
@@ -31,7 +30,7 @@ function Honduras() {
                     <FormattedMessage id="navbar.venue" />
                 </Link>
             </Navbar>
-            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"https://faucet.ethlatam.org/"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
+            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"https://www.youtube.com/playlist?list=PLhvc8ovGqDK44DMhDD6hsQoH7X9gjJ7rT"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
             {/* <Apply /> */}
             <HackathonHN edition={EDITIONS.HONDURAS}/>
             <EthToLatam edition={EDITIONS.HONDURAS} />
