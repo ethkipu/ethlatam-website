@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FormattedHTMLMessage } from 'react-intl'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
 
 import eas from "../assets/sponsorsHN/EAS.png"
@@ -33,13 +33,11 @@ const SponsorsHN = () => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
-
+  const intl = useIntl()
   return (
     <SponsorsHNSection id="media" locale={locale}>
       <Container>
-        <h1>
-          <FormattedHTMLMessage id="sponsors.title" />
-        </h1>
+        <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "sponsors.title" }) }} />
         <Row>
           <BoxItem className="tierZero">
             <BoxInfo>

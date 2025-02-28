@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 import location from '../assets/location.svg'
 import background from '../assets/venue-background.svg'
 import backgroundSmall from '../assets/venue-small-background.png'
@@ -11,22 +11,19 @@ export default function Venue({ locationHref, venueSmSrc, venueLgSrc, edition })
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
-
+  const intl = useIntl()
   const medium = 700
   return (
     <VenueSection id="venue">
       <Container>
         <Box>
           <img src={location} alt='location venue background'/>
-          <h1>
-            <FormattedHTMLMessage id={edition + ".venue.title"} />
-          </h1>
-          <h2>
-            <FormattedMessage id={edition + ".venue.address"} />
-          </h2>
+          <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + ".venue.title" }) }} />
+          <h2 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + ".venue.address" }) }} />
+
           {width < medium && <img className="venue" src={venueSmSrc} alt='venue'/>}
           <a href={locationHref} target="_blank" rel="noreferrer" >
-            <FormattedMessage id="venue.link" />
+          <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "venue.link" }) }} />
           </a>
         </Box>
         <div>

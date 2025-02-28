@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
-import { FormattedHTMLMessage } from 'react-intl'
 
-import defiant from '../assets/media/defiant.svg'
 import bankless from '../assets/media/bankless.svg'
-import rekt from '../assets/media/rekt.svg'
+import defiant from '../assets/media/defiant.svg'
 import platzi from '../assets/media/platzi.svg'
+import rekt from '../assets/media/rekt.svg'
 import { useLanguage } from '../context/LanguageContext'
 
 const MediaPartner = () => {
@@ -15,13 +15,11 @@ const MediaPartner = () => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
-
+  const intl = useIntl()
   return (
     <MediaPartnerSection id="media" locale={locale}>
       <Container>
-        <h1>
-          <FormattedHTMLMessage id="media.title" />
-        </h1>
+        <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "media.title" }) }} />
         <Row>
           <BoxItem className="tierTwo">
             <BoxInfo>

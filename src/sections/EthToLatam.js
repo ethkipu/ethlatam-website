@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
-import { FormattedHTMLMessage } from 'react-intl'
-import underline from '../assets/latam-underline.svg'
 import arrow from '../assets/arrow.svg'
+import underline from '../assets/latam-underline.svg'
 import { useLanguage } from '../context/LanguageContext'
 
 const EthToLatam = ({ edition }) => {
@@ -12,23 +12,23 @@ const EthToLatam = ({ edition }) => {
   }, [])
   const medium = 700
   const { locale } = useLanguage();
-
+  const intl = useIntl();
   return (
     <EthToLatamSection id="about">
       <Container>
         <h1>
-          <FormattedHTMLMessage id="ethtolatam.title" />
+        <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "ethtolatam.title" }) }} />
           {width < medium && locale !== 'en' && <br />}
           <Arrow src={arrow} />
           {width >= medium && <br />}
           <Green>
-            <FormattedHTMLMessage id="ethtolatam.title2" />
+          <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "ethtolatam.title2" }) }} />
             <Underline src={underline} />
           </Green>
         </h1>
         <TextBox>
-          <FormattedHTMLMessage id={edition + ".ethtolatam.paragraph1"} />
-          <FormattedHTMLMessage id={edition + ".ethtolatam.paragraph2"} />
+          <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: `${edition}.ethtolatam.paragraph1` }) }} />
+          <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + ".ethtolatam.paragraph2" }) }} />
         </TextBox>
 
       </Container>

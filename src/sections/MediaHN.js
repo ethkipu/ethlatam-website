@@ -1,33 +1,31 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { FormattedHTMLMessage } from 'react-intl'
 
-import etherscan from '../assets/sponsorsHN/community/etherscan.png'
-import zupass from "../assets/sponsorsHN/community/zupass.png"
-import tgu from "../assets/sponsorsHN/community/tgu.png"
-import lima from "../assets/sponsorsHN/community/lima.png"
-import cryptoversidad from "../assets/sponsorsHN/community/cryptoversidad.png"
-import seedLatam from "../assets/sponsorsHN/community/seedLatam.png"
-import modular from "../assets/sponsorsHN/community/modular.webp"
-import samba from "../assets/sponsorsHN/community/samba.png"
-import volcano from "../assets/sponsorsHN/community/volcano.png"
-import dominicana from "../assets/sponsorsHN/community/dominicana.png"
-import costarica from "../assets/sponsorsHN/community/costarica.svg"
 import argentina from "../assets/sponsorsHN/community/argentina.svg"
-import proofIntegrity from "../assets/sponsorsHN/community/proofIntegrity.png"
-import sps from "../assets/sponsorsHN/community/SPS.png"
-import singapur from "../assets/sponsorsHN/community/singapur.png"
-import solow from "../assets/sponsorsHN/community/solow.png"
-import usap from "../assets/sponsorsHN/community/usap.png"
 import buro from "../assets/sponsorsHN/community/buro.png"
 import cointelegraph from "../assets/sponsorsHN/community/cointelegraph.png"
+import costarica from "../assets/sponsorsHN/community/costarica.svg"
 import cryptoconexion from "../assets/sponsorsHN/community/cryptoconexion.png"
+import cryptoversidad from "../assets/sponsorsHN/community/cryptoversidad.png"
+import dominicana from "../assets/sponsorsHN/community/dominicana.png"
+import ethco from "../assets/sponsorsHN/community/ETHCO.webp"
+import etherscan from '../assets/sponsorsHN/community/etherscan.png'
+import fiesta from "../assets/sponsorsHN/community/Fiesta.png"
 import filosofiacodigo from "../assets/sponsorsHN/community/filosofiacodigo.png"
 import guatemala from "../assets/sponsorsHN/community/guatemala.png"
+import lima from "../assets/sponsorsHN/community/lima.png"
+import modular from "../assets/sponsorsHN/community/modular.webp"
+import proofIntegrity from "../assets/sponsorsHN/community/proofIntegrity.png"
+import samba from "../assets/sponsorsHN/community/samba.png"
+import seedLatam from "../assets/sponsorsHN/community/seedLatam.png"
+import singapur from "../assets/sponsorsHN/community/singapur.png"
+import solow from "../assets/sponsorsHN/community/solow.png"
+import sps from "../assets/sponsorsHN/community/SPS.png"
+import tgu from "../assets/sponsorsHN/community/tgu.png"
+import usap from "../assets/sponsorsHN/community/usap.png"
 import uth from "../assets/sponsorsHN/community/uth.png"
-import ceutec from "../assets/sponsorsHN/community/ceutec.png"
-import fiesta from "../assets/sponsorsHN/community/Fiesta.png"
-import ethco from "../assets/sponsorsHN/community/ETHCO.webp"
+import volcano from "../assets/sponsorsHN/community/volcano.png"
+import zupass from "../assets/sponsorsHN/community/zupass.png"
 
 
 import { useLanguage } from '../context/LanguageContext'
@@ -43,9 +41,7 @@ const MediaHN = () => {
   return (
     <SponsorsHNSection id="media" locale={locale}>
       <Container>
-        <h1>
-          <FormattedHTMLMessage id="media.title" />
-        </h1>
+      <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "media.title" }) }} />
        <Row>
           <BoxItem className="tierTwo">
             <BoxInfo>

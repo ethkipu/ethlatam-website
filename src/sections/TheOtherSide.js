@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FormattedHTMLMessage } from 'react-intl'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
 import sideSmall from '../assets/side-small.png'
 import side from '../assets/side.png'
@@ -10,14 +10,12 @@ export default function App() {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
-
+  const intl = useIntl()
   return (
     <TheOtherSideSection id="theOtherSide">
       <Container>
         <Box>
-          <h1>
-            <FormattedHTMLMessage id="theOtherSide.title" />
-          </h1>
+        <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "theOtherSide.title" }) }} />
           <Button href="https://ethlatam.notion.site/ETHLatam-Side-Events-fbb102cb6fe643f095e826d9a821869b" target="_blank">
             Side events
           </Button>

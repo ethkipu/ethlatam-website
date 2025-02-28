@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from 'react'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
-import { FormattedHTMLMessage } from 'react-intl'
 
-import ethereumFoundation from '../assets/sponsors2/ethereumFoundation.svg'
-import buenosAiresCiudad from '../assets/sponsors2/ba.svg'
-import ripio from '../assets/sponsors2/ripio.svg'
-import protofire from '../assets/sponsors2/protofire.svg'
-import thinkandDev from '../assets/sponsors2/ThinkandDev.png'
-import wonderland from '../assets/sponsors2/Wonderland.png'
-import belo from '../assets/sponsors2/belo.svg'
-import argent from '../assets/sponsors2/worldcoin.svg'
-import maker from '../assets/sponsors2/Maker.svg'
-import starkware from '../assets/sponsors2/starkware.png'
-import epns from '../assets/sponsors2/epns.svg'
-import wink from '../assets/sponsors2/wink.svg'
 import auth0 from '../assets/sponsors2/auth0.svg'
-import theGraph from '../assets/sponsors2/TheGraph.svg'
-import exactly from '../assets/sponsors2/exactly.svg'
-import lens from '../assets/sponsors2/lens.svg'
-import lemon from '../assets/sponsors2/lemon.svg'
-import scroll from '../assets/sponsors2/Scroll.svg'
-import ethGlobal from '../assets/sponsors2/ETHGlobal.svg'
-import decentraland from '../assets/sponsors2/decentraland.svg'
-import oz from '../assets/sponsors2/OZ.svg'
-import metis from '../assets/sponsors2/metis.svg'
+import buenosAiresCiudad from '../assets/sponsors2/ba.svg'
+import belo from '../assets/sponsors2/belo.svg'
 import bitso from '../assets/sponsors2/bitso.svg'
-import livepeer from '../assets/sponsors2/livepeer.svg'
 import connext from '../assets/sponsors2/connext.svg'
+import decentraland from '../assets/sponsors2/decentraland.svg'
+import epns from '../assets/sponsors2/epns.svg'
+import ethereumFoundation from '../assets/sponsors2/ethereumFoundation.svg'
+import ethGlobal from '../assets/sponsors2/ETHGlobal.svg'
+import exactly from '../assets/sponsors2/exactly.svg'
+import lemon from '../assets/sponsors2/lemon.svg'
+import lens from '../assets/sponsors2/lens.svg'
+import livepeer from '../assets/sponsors2/livepeer.svg'
+import maker from '../assets/sponsors2/Maker.svg'
+import metis from '../assets/sponsors2/metis.svg'
+import oz from '../assets/sponsors2/OZ.svg'
 import polygon from '../assets/sponsors2/polygon.svg'
+import protofire from '../assets/sponsors2/protofire.svg'
+import ripio from '../assets/sponsors2/ripio.svg'
+import scroll from '../assets/sponsors2/Scroll.svg'
+import starkware from '../assets/sponsors2/starkware.png'
+import theGraph from '../assets/sponsors2/TheGraph.svg'
+import thinkandDev from '../assets/sponsors2/ThinkandDev.png'
+import wink from '../assets/sponsors2/wink.svg'
+import wonderland from '../assets/sponsors2/Wonderland.png'
+import argent from '../assets/sponsors2/worldcoin.svg'
 import { useLanguage } from '../context/LanguageContext'
 
 const Sponsors = () => {
@@ -37,13 +37,11 @@ const Sponsors = () => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
-
+  const intl = useIntl()
   return (
     <SponsorsSection id="sponsors" locale={locale}>
       <Container>
-        <h1>
-          <FormattedHTMLMessage id="sponsors.title" />
-        </h1>
+        <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "sponsors.title" }) }} />
         <Row>
           <BoxItem className="tierOne">
             <BoxInfo>

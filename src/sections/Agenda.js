@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FormattedHTMLMessage } from 'react-intl'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
 import background from '../assets/Mask.svg'
 
@@ -13,22 +13,20 @@ const Schedule = () => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
-
+  const intl = useIntl()
   const [active, setActive] = useState(0)
-  const handleClick = e => {
-    const index = parseInt(e.target.id, 0)
-    if (index !== active) {
-      setActive(index)
-    }
-  }
+  // const handleClick = e => {
+  //   const index = parseInt(e.target.id, 0)
+  //   if (index !== active) {
+  //     setActive(index)
+  //   }
+  // }
 
   return (
     <ScheduleSection id="agenda" locale={locale}>
       <Container>
         <Head>
-          <h1>
-            <FormattedHTMLMessage id="schedule.title" />
-          </h1>
+          <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.title" }) }} />
         </Head>
         <Content className={active === 0 ? 'active' : ''}>
           <Day>

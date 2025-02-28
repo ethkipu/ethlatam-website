@@ -1,5 +1,5 @@
 import Faq from 'react-faq-component'
-import { FormattedMessage, FormattedHTMLMessage, useIntl } from 'react-intl'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
 import background from '../assets/faq-line.svg'
 
@@ -38,9 +38,7 @@ export default function Faqs({ edition }) {
   return (
     <FaqsSection id="faqs">
       <Container>
-        <h1>
-          <FormattedHTMLMessage id="faqs.title" />
-        </h1>
+        <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "faqs.title" }) }} />
         <Faq
           data={data}
           styles={{

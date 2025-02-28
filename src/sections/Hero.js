@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedHTMLMessage, FormattedMessage } from 'react-intl'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
 import { PALETTE } from '../App'
 import background from '../assets/hero-line.svg'
@@ -10,26 +10,27 @@ import Loop from '../components/Loop'
 import { TextPixel } from '../components/TextPixel'
 
 const Hero = ({ buttonSrc, loopSrc, color, colorButton, edition }) => {
+  const intl = useIntl()
   return (
     <HeroSection>
       <Container>
         <Box>
           <TextPixel align={"left"}>
-            <FormattedMessage id={edition + '.hero.month'} />
+          <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + '.hero.month' }) }} />
             <br />
-            <FormattedMessage id={edition + '.hero.date'} />
+            <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + '.hero.date' }) }} />
             <br />
-            <FormattedMessage id={edition + '.hero.year'} />
+            <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + '.hero.year' }) }} />
           </TextPixel>
           <img alt="img" src={logo} />
           <TextPixel align={"right"} color={color}>
-            <FormattedHTMLMessage id={edition + '.hero.city'} />
+            <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + '.hero.city' }) }} />
             <br />
-            <FormattedHTMLMessage id={edition + '.hero.country'} />
+            <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + '.hero.country' }) }} />
           </TextPixel>
         </Box>
         <ButtonHero color={colorButton ?? PALETTE.GRAY} href={buttonSrc} target="_blank">
-          <FormattedMessage id={edition + '.hero.button'} />
+          <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: edition + '.hero.button' }) }} />
         </ButtonHero>
       </Container>
       <Loop reverse={true} content={<img alt="img" src={loopSrc} />} />

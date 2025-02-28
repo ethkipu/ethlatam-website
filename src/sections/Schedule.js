@@ -1,87 +1,82 @@
 import React, { useEffect, useState } from 'react'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
-import { FormattedHTMLMessage } from 'react-intl'
 import background from '../assets/Mask.svg'
 
 import oxjean from '../assets/speakers2/0xjean.jpeg'
+import adrian from '../assets/speakers2/adrian.jpeg'
+import agusx1211 from '../assets/speakers2/agusx1211.jpg'
 import alan from '../assets/speakers2/alan.jpg'
 import alejandro from '../assets/speakers2/alejandro.png'
-import camila from '../assets/speakers2/camila.jpeg'
-import damian from '../assets/speakers2/damian.png'
-import camilaR from '../assets/speakers2/camilaR.jpeg'
-import cryptoChica from '../assets/speakers2/cryptoChica.png'
-import matias from '../assets/speakers2/matias.png'
-import gabriel from '../assets/speakers2/gabriel.jpeg'
-import mariano from '../assets/speakers2/mariano.jpeg'
-import martin from '../assets/speakers2/martin.jpeg'
-import nadia from '../assets/speakers2/nadia.jpeg'
-import vitalik from '../assets/speakers2/vitalik.png'
-import stani from '../assets/speakers2/stani.png'
-import patricio from '../assets/speakers2/patricio.jpeg'
-import santiago from '../assets/speakers2/santiago.jpeg'
-import georgios from '../assets/speakers2/georgios.jpeg'
-import gerrit from '../assets/speakers2/gerrit.jpg'
-import jose from '../assets/speakers2/jose.jpg'
-import marcelo from '../assets/speakers2/marcelo.jpg'
-import sebastian from '../assets/speakers2/sebastian.jpeg'
-import nicolas from '../assets/speakers2/nicolas.jpg'
-import julien from '../assets/speakers2/julien.jpeg'
-import fernanda from '../assets/speakers2/fernanda.jpeg'
 import alejo from '../assets/speakers2/alejo.jpeg'
 import alejoL from '../assets/speakers2/alejoL.jpg'
-import patricioW from '../assets/speakers2/patricioW.jpg'
-import skeletor from '../assets/speakers2/skeletor.jpg'
-import aya from '../assets/speakers2/aya.jpeg'
-import arjun from '../assets/speakers2/arjun.jpeg'
-import rodrigo from '../assets/speakers2/rodrigo.jpg'
-import manuel from '../assets/speakers2/manuel.jpg'
-import nahuel from '../assets/speakers2/nahuel.JPG'
-import demianD from '../assets/speakers2/demianD.jpg'
-import harsh from '../assets/speakers2/harsh.jpeg'
-import julian from '../assets/speakers2/julian.jpg'
-import matiasN from '../assets/speakers2/matiasN.jpg'
-import oli from '../assets/speakers2/oli.jpeg'
-import antonela from '../assets/speakers2/antonela.png'
-import vicky from '../assets/speakers2/vicky.jpeg'
-import gino from '../assets/speakers2/gino.jpeg'
-import adrian from '../assets/speakers2/adrian.jpeg'
-import martinB from '../assets/speakers2/martinB.jpeg'
-import diego from '../assets/speakers2/diego.jpeg'
-import juanManuel from '../assets/speakers2/juanManuel.png'
-import evin from '../assets/speakers2/evin.jpg'
-import henry from '../assets/speakers2/henry.jpg'
-import wade from '../assets/speakers2/wade.jpeg'
-import sxysun from '../assets/speakers2/sxysun.jpg'
-import shannon from '../assets/speakers2/shannon.jpeg'
-import pablo from '../assets/speakers2/pablo.jpg'
-import agusx1211 from '../assets/speakers2/agusx1211.jpg'
-import renat from '../assets/speakers2/renat.jpg'
-import lucas from '../assets/speakers2/lucas.jpg'
-import cristian from '../assets/speakers2/cristian.jpg'
-import juani from '../assets/speakers2/juani.jpg'
-import maxi from '../assets/speakers2/maxi.jpeg'
-import patricioM from '../assets/speakers2/patricioM.jpg'
-import wei3erHase from '../assets/speakers2/wei3erHase.jpg'
-import skylar from '../assets/speakers2/skylar.jpg'
-import santos from '../assets/speakers2/santos.jpg'
-import ohad from '../assets/speakers2/ohad.jpg'
-import ramiro from '../assets/speakers2/ramiro.jpg'
 import andrew from '../assets/speakers2/andrew.jpg'
-import luiz from '../assets/speakers2/luiz.jpg'
-import sebastianL from '../assets/speakers2/sL.jpg'
-import evan from '../assets/speakers2/evan.jpeg'
-import whiteChocolate from '../assets/speakers2/whiteChocolate.png'
-import milton from '../assets/speakers2/milton.png'
-import siesta from '../assets/speakers2/siesta.png'
-import siesta1 from '../assets/speakers2/siesta1.jpg'
-import damianM from '../assets/speakers2/damianM.jpg'
-import nicolasC from '../assets/speakers2/nicolasC.jpg'
-import marianoD from '../assets/speakers2/marianoD.jpg'
-import nicolasM from '../assets/speakers2/nicolasM.jpeg'
+import antonela from '../assets/speakers2/antonela.png'
+import arjun from '../assets/speakers2/arjun.jpeg'
+import aya from '../assets/speakers2/aya.jpeg'
 import benjamin from '../assets/speakers2/benjamin.jpg'
 import brian from '../assets/speakers2/brian.jpg'
 import bruno from '../assets/speakers2/bruno.jpeg'
+import camilaR from '../assets/speakers2/camilaR.jpeg'
+import cristian from '../assets/speakers2/cristian.jpg'
+import damian from '../assets/speakers2/damian.png'
+import damianM from '../assets/speakers2/damianM.jpg'
+import demianD from '../assets/speakers2/demianD.jpg'
+import diego from '../assets/speakers2/diego.jpeg'
+import evan from '../assets/speakers2/evan.jpeg'
+import evin from '../assets/speakers2/evin.jpg'
+import fernanda from '../assets/speakers2/fernanda.jpeg'
+import gabriel from '../assets/speakers2/gabriel.jpeg'
+import gerrit from '../assets/speakers2/gerrit.jpg'
+import gino from '../assets/speakers2/gino.jpeg'
+import henry from '../assets/speakers2/henry.jpg'
+import jose from '../assets/speakers2/jose.jpg'
+import juani from '../assets/speakers2/juani.jpg'
+import juanManuel from '../assets/speakers2/juanManuel.png'
+import julian from '../assets/speakers2/julian.jpg'
+import julien from '../assets/speakers2/julien.jpeg'
+import lucas from '../assets/speakers2/lucas.jpg'
+import luiz from '../assets/speakers2/luiz.jpg'
+import manuel from '../assets/speakers2/manuel.jpg'
+import marcelo from '../assets/speakers2/marcelo.jpg'
+import mariano from '../assets/speakers2/mariano.jpeg'
+import marianoD from '../assets/speakers2/marianoD.jpg'
+import martin from '../assets/speakers2/martin.jpeg'
+import martinB from '../assets/speakers2/martinB.jpeg'
+import matias from '../assets/speakers2/matias.png'
+import matiasN from '../assets/speakers2/matiasN.jpg'
+import maxi from '../assets/speakers2/maxi.jpeg'
+import milton from '../assets/speakers2/milton.png'
+import nahuel from '../assets/speakers2/nahuel.JPG'
+import nicolas from '../assets/speakers2/nicolas.jpg'
+import nicolasC from '../assets/speakers2/nicolasC.jpg'
+import nicolasM from '../assets/speakers2/nicolasM.jpeg'
+import ohad from '../assets/speakers2/ohad.jpg'
+import oli from '../assets/speakers2/oli.jpeg'
+import pablo from '../assets/speakers2/pablo.jpg'
+import patricio from '../assets/speakers2/patricio.jpeg'
+import patricioM from '../assets/speakers2/patricioM.jpg'
+import patricioW from '../assets/speakers2/patricioW.jpg'
+import ramiro from '../assets/speakers2/ramiro.jpg'
+import renat from '../assets/speakers2/renat.jpg'
+import rodrigo from '../assets/speakers2/rodrigo.jpg'
+import santiago from '../assets/speakers2/santiago.jpeg'
+import santos from '../assets/speakers2/santos.jpg'
+import sebastian from '../assets/speakers2/sebastian.jpeg'
+import shannon from '../assets/speakers2/shannon.jpeg'
+import siesta from '../assets/speakers2/siesta.png'
+import siesta1 from '../assets/speakers2/siesta1.jpg'
+import skeletor from '../assets/speakers2/skeletor.jpg'
+import skylar from '../assets/speakers2/skylar.jpg'
+import sebastianL from '../assets/speakers2/sL.jpg'
+import stani from '../assets/speakers2/stani.png'
 import sweetman from '../assets/speakers2/sweetman.jpeg'
+import sxysun from '../assets/speakers2/sxysun.jpg'
+import vicky from '../assets/speakers2/vicky.jpeg'
+import vitalik from '../assets/speakers2/vitalik.png'
+import wade from '../assets/speakers2/wade.jpeg'
+import wei3erHase from '../assets/speakers2/wei3erHase.jpg'
+import whiteChocolate from '../assets/speakers2/whiteChocolate.png'
 
 import jaffet from '../assets/speakers2/jaffet.jpg'
 import { useLanguage } from '../context/LanguageContext'
@@ -102,13 +97,12 @@ const Schedule = () => {
     }
   }
 
+  const intl = useIntl();
   return (
     <ScheduleSection id="agenda" locale={locale}>
       <Container>
         <Head>
-          <h1>
-            <FormattedHTMLMessage id="schedule.title" />
-          </h1>
+          <h1 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.title" }) }} />
           <div>
             <button
               onClick={handleClick}
@@ -235,9 +229,7 @@ const Schedule = () => {
               <Entry>
                 <Hours>12:00 - 13:30</Hours>
                 <div>
-                  <h3>
-                    <FormattedHTMLMessage id="schedule.break" />
-                  </h3>
+                  <h3 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.break" }) }} />
                 </div>
               </Entry>
               <Entry>
@@ -507,9 +499,7 @@ const Schedule = () => {
               <Entry>
                 <Hours>12:00 - 13:30</Hours>
                 <div>
-                  <h3>
-                    <FormattedHTMLMessage id="schedule.break" />
-                  </h3>
+                  <h3 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.break" }) }} />
                 </div>
               </Entry>
               <Entry>
@@ -818,9 +808,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Stage 1</p>
-                    <h3>
-                      <FormattedHTMLMessage id="schedule.closing" />
-                    </h3>
+                    <h3 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.closing" }) }} />
                   </div>
                 </div>
               </Entry>
@@ -864,9 +852,7 @@ const Schedule = () => {
               <Entry>
                 <Hours>12:00 - 13:30</Hours>
                 <div>
-                  <h3>
-                    <FormattedHTMLMessage id="schedule.break" />
-                  </h3>
+                  <h3 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.break" }) }} />
                 </div>
               </Entry>
               <Entry>
@@ -927,9 +913,7 @@ const Schedule = () => {
               <Entry>
                 <Hours>12:00 - 13:30</Hours>
                 <div>
-                  <h3>
-                    <FormattedHTMLMessage id="schedule.break" />
-                  </h3>
+                  <h3 dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "schedule.break" }) }} />
                 </div>
               </Entry>
               <Entry>
